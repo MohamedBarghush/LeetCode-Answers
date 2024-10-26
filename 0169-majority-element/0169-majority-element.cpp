@@ -9,6 +9,6 @@ public:
             if (frequencies[most] < frequencies[nums[i]]) most = nums[i];
         }
         return most;
-        // ez solution
+        // ez solution 1
     }
 };
