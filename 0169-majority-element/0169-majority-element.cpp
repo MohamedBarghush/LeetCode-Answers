@@ -1,7 +1,7 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        // map
+        // map 1
         map<int, int> frequencies;
         int mostVal = -1;
         for (int i = 0; i < nums.size(); i++) {
