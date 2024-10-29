@@ -12,7 +12,7 @@ public:
                 p2--;
                 continue;
             }
-            if ((char)tolower(*p1) == (char)tolower(*p2)) {
+            if ( (char)tolower(*p1) == (char)tolower(*p2) ) {
                 p1++;
                 p2--;
             } else {
