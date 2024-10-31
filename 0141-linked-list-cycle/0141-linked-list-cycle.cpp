@@ -19,7 +19,7 @@ public:
             if (hare == NULL || hare->next == NULL) // hare reached the end
                 return false;
 
-            tortoise = tortoise->next; // move 1 step
+            tortoise = tortoise->next; // turtle move 1 step
             hare = hare->next->next; // rabbit move 2 steps
         }
         return true;
