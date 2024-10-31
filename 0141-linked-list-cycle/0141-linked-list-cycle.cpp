@@ -20,7 +20,7 @@ public:
                 return false;
 
             tortoise = tortoise->next; // tortoise moves 1 step
-            hare = hare->next->next; // hare move 2 steps
+            hare = hare->next->next; // hare moves 2 steps
         }
         return true;
     }
