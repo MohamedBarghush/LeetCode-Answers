@@ -16,7 +16,7 @@ public:
 
         while (tortoise != hare) // meet up condition
         {
-            if (hare == NULL || hare->next == NULL) // hare reached the end
+            if (hare == NULL || hare->next == NULL) // rabbit reached the end
                 return false;
 
             tortoise = tortoise->next; // turtle move 1 step
