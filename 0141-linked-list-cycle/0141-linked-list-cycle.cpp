@@ -16,7 +16,7 @@ public:
 
         while (tortoise != hare) // rabbit and turtle meet up here
         {
-            if (hare == NULL || hare->next == NULL) 
+            if (hare == NULL || hare->next == NULL) // hare reached the end of the linked-list
                 return false;
 
             tortoise = tortoise->next; // tortoise moves 1 step at a time
