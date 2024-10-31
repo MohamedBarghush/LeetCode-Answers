@@ -14,7 +14,7 @@ public:
         ListNode* tortoise = head; // slow turtle
         ListNode* hare = head->next; // fast rabbit
 
-        while (tortoise != hare) // meet up condition
+        while (tortoise != hare) // meet up here
         {
             if (hare == NULL || hare->next == NULL) // rabbit reached the end
                 return false;
