@@ -12,7 +12,7 @@ public:
         if (head == NULL || head->next == NULL) return false;
 
         ListNode* tortoise = head; // slow tortoise
-        ListNode* hare = head->next; // fast rabbit
+        ListNode* hare = head->next; // fast hare
 
         while (tortoise != hare) // meet up here
         {
