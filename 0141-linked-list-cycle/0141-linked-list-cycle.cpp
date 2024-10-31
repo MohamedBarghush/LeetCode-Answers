@@ -11,16 +11,16 @@ public:
     bool hasCycle(ListNode *head) {
         if (head == NULL || head->next == NULL) return false;
 
-        ListNode* tortoise = head; // slow tortoise
-        ListNode* hare = head->next; // fast hare
+        ListNode* tortoise = head;
+        ListNode* hare = head->next;
 
-        while (tortoise != hare) // rabbit and turtle meet up here
+        while (tortoise != hare)
         {
             if (hare == NULL || hare->next == NULL) 
                 return false;
 
-            tortoise = tortoise->next; // tortoise moves 1 step at a time
-            hare = hare->next->next; // hare moves 2 steps at a time
+            tortoise = tortoise->next;
+            hare = hare->next->next;
         }
         return true;
     }
