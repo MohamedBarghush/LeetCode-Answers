@@ -6,6 +6,6 @@ public:
         for (int i = 0; i < len/2; i++) {
             if (pal[i] != pal[len-1-i]) return false;
         }
-        return true; //yes
+        return true; 
     }
 };
