@@ -7,6 +7,6 @@ public:
             if (magL[ch] <= 0) return false;
             magL[ch]--;
         }
-        return 1==1;
+        return 1;
     }
 };
