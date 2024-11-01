@@ -4,8 +4,8 @@ public:
         unordered_map<char,int> magL;
         for (char ch : magazine) magL[ch]++;
         for (char ch : ransomNote) {
+            if (magL[ch] <= 0) return false;
             magL[ch]--;
-            if (magL[ch] < 0) return false;
         }
         return true;
     }
