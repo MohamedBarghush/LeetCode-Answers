@@ -4,15 +4,13 @@ public:
         unordered_map<int,int> loopDetector;
         while (n != 1) {
             string k = to_string(n);
-            // if (k.length() == 1) return false;
-            long sum = 0;
+            n = 0;
             for (char ch : k) {
                 int k = ch - '0';
-                sum += k*k;
+                n += k*k;
             }
-            loopDetector[sum]++;
-            if (loopDetector[sum] > 1) return false;
-            n = sum;
+            loopDetector[n]++;
+            if (loopDetector[n] > 1) return false;
         }
         return true;
     }
