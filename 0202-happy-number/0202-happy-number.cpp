@@ -7,7 +7,7 @@ public:
             n = 0;
             for (char ch : k)  {
                 int k = ch - '0';
-                n += k*k; 
+                n += k*k; //
             }
             loopDetector[n]++;
             if (loopDetector[n] > 1) return false;
