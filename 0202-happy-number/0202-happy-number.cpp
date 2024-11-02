@@ -5,10 +5,7 @@ public:
         while (n != 1) {
             string k = to_string(n);
             n = 0;
-            for (char ch : k) {
-                int k = ch - '0';
-                n += k*k;
-            }
+            for (char ch : k) n += (ch-'0')*(ch-'0');
             loopDetector[n]++;
             if (loopDetector[n] > 1) return false;
         }
