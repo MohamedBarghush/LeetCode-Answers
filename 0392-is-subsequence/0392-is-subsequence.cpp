@@ -8,9 +8,7 @@ public:
             if (s[p1] == t[p2]) {
                 p1++;
                 p2++;
-            } else {
-                p2++;
-            }
+            } else p2++;
             if (p1 == s.length()) return true;
         }
         return false;
