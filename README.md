@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 ## Hash Table
 |  |
 | ------- |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0125-valid-palindrome) |
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
+| [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 ## Stack
 |  |
 | ------- |
@@ -53,7 +55,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 =======
 | [0141-linked-list-cycle](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0141-linked-list-cycle) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
+<<<<<<< HEAD
 >>>>>>> 2f3b894 (Update README - Topic Tags)
+=======
+| [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
+>>>>>>> be6c786 (Update README - Topic Tags)
 ## String Matching
 |  |
 | ------- |
