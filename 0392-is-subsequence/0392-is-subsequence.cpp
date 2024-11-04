@@ -10,6 +10,7 @@ public:
                 p2++;
             } else 
                 p2++;
+                
             if (p1 == s.length()) return true;
         }
         return false;
