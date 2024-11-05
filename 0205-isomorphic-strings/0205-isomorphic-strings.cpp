@@ -1,11 +1,10 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        // 2 maps
         unordered_map<char,char> iso;
         unordered_map<char,int> taken;
         for (int i = 0; i < s.length(); i++) {
-            if (iso.find(s[i]) != iso.end()) {
+            if (iso[s[i]]) {
                 if (iso[s[i]] == t[i]) {
                     continue;
                 } else {
