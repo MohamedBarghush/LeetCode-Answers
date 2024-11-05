@@ -1,15 +1,21 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        unordered_map<char, char> iso;
-        unordered_set<char> mapped_chars;
+        vector<int> s_to_t(256, -1);
+        vector<int> t_to_s(256, -1);
         for (int i = 0; i < s.length(); i++) {
-            if (iso.count(s[i])) {
-                if (iso[s[i]] != t[i]) return false;
+            // if s ! map to t
+            if (s_to_t[s[i]] == -1) {
+                if (t_to_s[t[i]] == -1) {
+                    s_to_t[s[i]] = t[i];
+                    t_to_s[t[i]] = s[i];
+                } else {
+                    return false;
+                }
             } else {
-                if (mapped_chars.count(t[i])) return false;
-                iso[s[i]] = t[i];
-                mapped_chars.insert(t[i]);
+                if (s_to_t[s[i]] != t[i]) {
+                    return false;
+                }
             }
         }
         return true;
