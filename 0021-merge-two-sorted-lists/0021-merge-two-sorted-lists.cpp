@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode dummy(0);
+        ListNode dummy(0); // to return
         ListNode* tail = &dummy;
 
         while (list1 != nullptr && list2 != nullptr) {
