@@ -11,8 +11,8 @@ public:
     bool hasCycle(ListNode *head) {
         if (head == NULL || head->next == NULL) return false;
 
-        ListNode* tortoise = head;
-        ListNode* hare = head->next; 
+        ListNode* tortoise = head; // slow tortoise
+        ListNode* hare = head->next; // quick hare
 
         while (tortoise != hare)
         {
