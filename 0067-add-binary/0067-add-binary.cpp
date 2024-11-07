@@ -20,7 +20,7 @@ public:
             }
 
             result += (sum%2) + '0';
-            carry = sum / 2;
+            carry = sum / 2; // for carry
         }
         reverse(result.begin(), result.end());
         return result;
