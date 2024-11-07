@@ -19,8 +19,8 @@ public:
                 p2--;
             }
 
-            result += (sum%2) + '0'; // for answer in each loop
-            carry = sum / 2; // for carry
+            result += (sum%2) + '0';
+            carry = sum / 2;
         }
         reverse(result.begin(), result.end());
         return result;
