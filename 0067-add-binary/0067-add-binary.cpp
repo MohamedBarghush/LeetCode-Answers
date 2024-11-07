@@ -1,7 +1,6 @@
 class Solution {
 public:
     string addBinary(string a, string b) {
-        // 2 pointers
         int p1 = a.length()-1;
         int p2 = b.length()-1;
         string result;
