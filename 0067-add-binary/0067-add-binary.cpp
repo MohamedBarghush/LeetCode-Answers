@@ -19,7 +19,7 @@ public:
                 p2--;
             }
 
-            result += (sum%2) + '0';
+            result += (sum%2) + '0'; // for answer in each loop
             carry = sum / 2; // for carry
         }
         reverse(result.begin(), result.end());
