@@ -9,7 +9,7 @@ public:
         // Reverse the first k elements
         std::reverse(nums.begin(), nums.begin() + k);
 
-        // Reverse the remaining n - k
+        // Reverse the remaining n - k elements
         std::reverse(nums.begin() + k, nums.end());
     }
 };
