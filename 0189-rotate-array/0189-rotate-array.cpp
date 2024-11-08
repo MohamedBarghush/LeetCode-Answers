@@ -1,8 +1,7 @@
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-        int n = nums.size();
-        k = k % n;  // Get effective rotations in case k > n
+        k = k % nums.size();
 
         // Reverse the entire array
         std::reverse(nums.begin(), nums.end());
