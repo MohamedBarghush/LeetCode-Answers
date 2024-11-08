@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0066-plus-one) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 <<<<<<< HEAD
 =======
 | [0141-linked-list-cycle](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0141-linked-list-cycle) |
+| [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
 <<<<<<< HEAD
 >>>>>>> 2f3b894 (Update README - Topic Tags)
@@ -88,7 +90,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 >>>>>>> 931454d (Update README - Topic Tags)
 =======
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
+<<<<<<< HEAD
 >>>>>>> bca44fc (Update README - Topic Tags)
+=======
+| [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
+>>>>>>> 04baaa1 (Update README - Topic Tags)
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
 <<<<<<< HEAD
 >>>>>>> 2f3b894 (Update README - Topic Tags)
