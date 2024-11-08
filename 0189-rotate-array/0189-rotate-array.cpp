@@ -4,7 +4,7 @@ public:
         int n = nums.size();
         k = k % n;
 
-        // Reverse the entire array
+        // Reverse the entire vector
         std::reverse(nums.begin(), nums.end());
 
         // Reverse the first k elements
