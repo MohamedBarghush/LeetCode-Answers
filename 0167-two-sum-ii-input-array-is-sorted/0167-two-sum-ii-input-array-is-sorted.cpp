@@ -24,6 +24,6 @@ public:
             }
             first++;
         }
-        return {}; // if no answer
+        return {};
     }
 };
