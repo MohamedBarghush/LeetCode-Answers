@@ -17,7 +17,7 @@ public:
 
     std::vector<int> twoSum(std::vector<int>& numbers, int target) {
         int first = 0;
-        while (first < numbers.size() - 1) {
+        while (first < numbers.size()) {
             int result = binary_search(numbers, first, target, first + 1, numbers.size() - 1);
             if (result != -1) {
                 return {first + 1, result + 1};
