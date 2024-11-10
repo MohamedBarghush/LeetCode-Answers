@@ -7,9 +7,8 @@ public:
                 if ((i - map[nums[i]]) <= k)
                     return true;
                 map[nums[i]] = i;
-            } else {
+            } else
                 map[nums[i]] = i;
-            }
         }
         return false;
     }
