@@ -1,13 +1,15 @@
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
-        unordered_map<int,int>lst;
-        int size = nums.size();
-        for(int i = 0; i < size; i++){
-            if(lst.count(nums[i])){
-                if(i-lst[nums[i]]<=k)return true;
+        unordered_map<int, int> map; // Use unordered_map to mimic HashMap in Java
+        for (int i = 0; i < nums.size(); i++) {
+            if (map.count(nums[i])) { // Equivalent of containsKey in Java
+                if (abs(map[nums[i]] - i) <= k)
+                    return true;
+                map[nums[i]] = i;
+            } else {
+                map[nums[i]] = i;
             }
-            lst[nums[i]]=i;
         }
         return false;
     }
