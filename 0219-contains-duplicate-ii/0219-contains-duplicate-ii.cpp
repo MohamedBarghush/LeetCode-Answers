@@ -6,9 +6,8 @@ public:
             if (map.count(nums[i])) {
                 if ((i - map[nums[i]]) <= k)
                     return true;
-                map[nums[i]] = i;
-            } else
-                map[nums[i]] = i;
+            }
+            map[nums[i]] = i;
         }
         return false;
     }
