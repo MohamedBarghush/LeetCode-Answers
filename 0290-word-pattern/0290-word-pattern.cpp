@@ -1,7 +1,8 @@
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
-        
+        // p -> s
+        // s -> p
         unordered_map<char, string> pattern_to_string;
         unordered_map<string, char> string_to_pattern;
         string word;
