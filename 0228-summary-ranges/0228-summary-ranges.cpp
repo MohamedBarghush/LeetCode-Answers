@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
-        if (nums.empty()) return {};
+        if (nums.empty()) return {}; // for no elements
         int start = nums[0];
         vector<string> return_list;
         for (int i = 1; i < nums.size(); i++) {
