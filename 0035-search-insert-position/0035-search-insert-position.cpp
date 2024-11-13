@@ -1,7 +1,7 @@
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-        // iterative binary search
+        // iterative binary search implementation
         int min = 0, max = nums.size()-1;
         int mid;
         while (min <= max) {
