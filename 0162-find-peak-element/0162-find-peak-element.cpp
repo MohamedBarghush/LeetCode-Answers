@@ -15,6 +15,7 @@ public:
         return binary_search(nums, mid + 1, max);
     }
     int findPeakElement(vector<int>& nums) {
+        
         if (nums.size() == 1) return 0;
         else if (nums[0] > nums[1]) return 0;
         else if (nums.back() > nums[nums.size() - 2]) return nums.size() - 1;
