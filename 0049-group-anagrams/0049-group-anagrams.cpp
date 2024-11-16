@@ -18,26 +18,22 @@ public:
         return hash;
     }
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> output;
-        unordered_map<int, vector<int>> hash_maps; // <val, indices>
-
-        int mod = 1000000007;
-
-        for (int i = 0; i < strs.size(); i++) {
-            int val = primeHashMod(strs[i], mod);
-            hash_maps[val].push_back(i);
+        unordered_map<string, vector<string>> anagramGroups;
+    
+        for (string& str : strs) {
+            string sortedStr = str;  // Make a copy of the string
+            sort(sortedStr.begin(), sortedStr.end());  // Sort the string
+            
+            // Use the sorted string as the key to group anagrams
+            anagramGroups[sortedStr].push_back(str);
         }
-
-        int i = 0;
-        for (const auto& [key, value] : hash_maps) {
-            vector<string> result;
-            for (int v : value) {
-                result.push_back(strs[v]);
-            }
-            i++;
-            output.push_back(result);
+        
+        vector<vector<string>> result;
+        // Collect all groups of anagrams
+        for (auto& entry : anagramGroups) {
+            result.push_back(entry.second);
         }
-
-        return output;
+        
+        return result;
     }
 };
