@@ -7,12 +7,12 @@ public:
             string sortedStr = str;
             sort(sortedStr.begin(), sortedStr.end());
             
-            letter_groups[sortedStr].emplace_back(str);
+            letter_groups[sortedStr].push_back(str);
         }
         
         vector<vector<string>> output;
         for (auto& entry : letter_groups) {
-            output.emplace_back(entry.second);
+            output.push_back(entry.second);
         }
         
         return output;
