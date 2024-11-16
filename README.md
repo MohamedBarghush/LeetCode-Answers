@@ -63,23 +63,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0125-valid-palindrome) |
-<<<<<<< HEAD
-=======
 | [0141-linked-list-cycle](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
-<<<<<<< HEAD
->>>>>>> 2f3b894 (Update README - Topic Tags)
-=======
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
->>>>>>> be6c786 (Update README - Topic Tags)
 ## String Matching
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-<<<<<<< HEAD
-=======
 ## Linked List
 |  |
 | ------- |
@@ -89,32 +81,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0009-palindrome-number) |
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 89babfd (Update README - Topic Tags)
-=======
-=======
 | [0066-plus-one](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0066-plus-one) |
-<<<<<<< HEAD
->>>>>>> 931454d (Update README - Topic Tags)
-=======
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
-<<<<<<< HEAD
->>>>>>> bca44fc (Update README - Topic Tags)
-=======
 | [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
->>>>>>> 04baaa1 (Update README - Topic Tags)
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
-<<<<<<< HEAD
->>>>>>> 2f3b894 (Update README - Topic Tags)
-=======
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0021-merge-two-sorted-lists) |
-<<<<<<< HEAD
->>>>>>> 3f99486 (Update README - Topic Tags)
-=======
 ## Bit Manipulation
 |  |
 | ------- |
@@ -123,21 +97,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
-<<<<<<< HEAD
->>>>>>> bca44fc (Update README - Topic Tags)
-=======
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0035-search-insert-position) |
 | [0162-find-peak-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-<<<<<<< HEAD
->>>>>>> bbe72f3 (Update README - Topic Tags)
-=======
 ## Sliding Window
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0219-contains-duplicate-ii) |
->>>>>>> bb2e85e (Update README - Topic Tags)
 <!---LeetCode Topics End-->
