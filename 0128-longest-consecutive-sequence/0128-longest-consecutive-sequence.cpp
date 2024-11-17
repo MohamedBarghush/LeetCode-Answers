@@ -14,9 +14,7 @@ public:
                 int currentNum = num;
                 int length = 1;
 
-                while (hash_set.find(++currentNum) != hash_set.end()) {
-                    length++;
-                }
+                while (hash_set.find(++currentNum) != hash_set.end()) length++;
 
                 longest = max(longest, length);
             }
