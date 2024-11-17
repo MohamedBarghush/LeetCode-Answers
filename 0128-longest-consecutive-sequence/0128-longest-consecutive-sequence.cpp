@@ -6,7 +6,7 @@ public:
         unordered_set<int> hash_set(nums.begin(), nums.end());
         int longest = 0;
 
-        for (int num : hash_set) {
+        for (int num : nums) {
             if (hash_set.find(num - 1) == hash_set.end()) {
                 int currentNum = num;
                 int length = 1;
