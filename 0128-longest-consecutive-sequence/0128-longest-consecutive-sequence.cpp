@@ -7,7 +7,6 @@ public:
         int count = 1, longest = 1;
 
         for (int i = 1; i < nums.size(); i++) {
-            cout << "num is: " << nums[i] << endl;
             if (nums[i] == (nums[i-1]+1)) {
                 count++;
                 if (count > longest) longest = count;
