@@ -3,7 +3,7 @@ public:
     int longestConsecutive(vector<int>& nums) {
         if (nums.empty()) return 0;
 
-        unordered_set<int> hash_set(nums.begin(), nums.end());
+        unordered_set<int> hash_set(nums.begin(), nums.end()); // using hash_set
         int longest = 0;
 
         for (int num : nums) {
