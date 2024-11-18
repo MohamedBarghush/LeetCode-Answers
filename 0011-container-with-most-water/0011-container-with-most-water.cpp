@@ -6,8 +6,7 @@ public:
         int max_area = 0;
 
         while (p2 > p1) {
-            int val = min(height[p1], height[p2]) * (p2 - p1);
-            max_area = max(max_area, val);
+            max_area = max(max_area, min(height[p1], height[p2]) * (p2 - p1));
             if (height[p1] > height[p2]) p2--;
             else p1++;
         }
