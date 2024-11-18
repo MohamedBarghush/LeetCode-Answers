@@ -7,8 +7,7 @@ public:
 
         while (p2 > p1) {
             max_area = max(max_area, min(height[p1], height[p2]) * (p2 - p1));
-            if (height[p1] > height[p2]) p2--;
-            else p1++;
+            height[p1] > height[p2] ? p2-- : p1++;
         }
 
         return max_area;
