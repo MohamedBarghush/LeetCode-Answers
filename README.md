@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0015-3sum) |
 | [0035-search-insert-position](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0066-plus-one) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0015-3sum) |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
 ## Counting
 |  |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0141-linked-list-cycle) |
