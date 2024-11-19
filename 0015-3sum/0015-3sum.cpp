@@ -4,7 +4,7 @@ public:
         vector<vector<int>> result;
         sort(nums.begin(), nums.end());
 
-        int p1, p2, sum;
+        int p1, p2, sum; // early creation
 
         for (int i = 0; i < nums.size(); i++) {
             if (i > 0 && nums[i] == nums[i - 1]) continue;
