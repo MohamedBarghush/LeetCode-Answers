@@ -8,8 +8,7 @@ public:
             remain = target - nums[i];
             if (hash.count(remain) > 0)
                 return {hash[remain], i};
-            else
-                hash[nums[i]] = i;
+            hash[nums[i]] = i;
         }
 
         return {0,1};
