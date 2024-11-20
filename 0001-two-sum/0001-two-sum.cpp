@@ -6,7 +6,7 @@ public:
 
         for (int i = nums.size()-1; i >= 0; i--) {
             remain = target - nums[i];
-            if (hash.find(remain) != hash.end())
+            if (hash.count(remain))
                 return {hash[remain], i};
             hash[nums[i]] = i;
         }
