@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0015-3sum) |
 | [0035-search-insert-position](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0035-search-insert-position) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
