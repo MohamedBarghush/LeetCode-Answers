@@ -7,10 +7,9 @@ public:
         for (char ch : s)
             ana_one[ch]++;
 
-        for (char s : t) {
-            if (ana_one[s] > 0) {
-                // cout << "found: " << s << " with count of " << ana_one[s] << endl;
-                ana_one[s]--;
+        for (char ch : t) {
+            if (ana_one[ch] > 0) {
+                ana_one[ch]--;
                 size--;
             }
         }
