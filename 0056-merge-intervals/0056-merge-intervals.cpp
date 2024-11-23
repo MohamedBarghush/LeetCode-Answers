@@ -11,10 +11,9 @@ public:
         int size = 0;
 
         for (int i = 1; i < n; i++) {
-            if (intervals[i][0] <= new_intervals[size][1]) {
-                // new_intervals[size][0] = min(intervals[i][0], new_intervals[size][0]);
+            if (intervals[i][0] <= new_intervals[size][1])
                 new_intervals[size][1] = max(intervals[i][1], new_intervals[size][1]);
-            } else {
+            else {
                 new_intervals.push_back(intervals[i]);
                 size++;
             }
