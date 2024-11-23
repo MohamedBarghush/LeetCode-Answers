@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findMinArrowShots(vector<vector<int>>& points) {
-        sort(points.begin(), points.end()); // sort first
+        sort(points.begin(), points.end());
         vector<vector<int>> new_intervals;
         new_intervals.push_back(points[0]);
         int j = 0;
