@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
 | [0219-contains-duplicate-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0228-summary-ranges) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0242-valid-anagram) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Counting
 |  |
 | ------- |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0011-container-with-most-water) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Graph
 |  |
 | ------- |
