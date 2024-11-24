@@ -1,7 +1,7 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        stack<string> myPath; // my Stack
+        stack<string> myPath;
         string current;
         for (char c : path) {
             if (c == '/') {
@@ -22,7 +22,7 @@ public:
             myPath.push(current);
         }
 
-        std::string answer;
+        string answer;
         while (!myPath.empty()) {
             answer = "/" + myPath.top() + answer;
             myPath.pop();
