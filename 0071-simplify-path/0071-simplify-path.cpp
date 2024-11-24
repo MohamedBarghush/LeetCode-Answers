@@ -1,7 +1,7 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        stack<string> myPath;
+        stack<string> myPath; // my Stack
         string current;
         for (char c : path) {
             if (c == '/') {
