@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0071-simplify-path) |
+| [0155-min-stack](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0155-min-stack) |
 ## Two Pointers
 |  |
 | ------- |
@@ -144,4 +145,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3140-count-visited-nodes-in-a-directed-graph](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3140-count-visited-nodes-in-a-directed-graph) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
