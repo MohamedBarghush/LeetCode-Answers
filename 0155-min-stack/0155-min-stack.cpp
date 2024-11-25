@@ -1,7 +1,7 @@
 class MinStack {
 public:
-    vector<int> theStack;
-    vector<int> minStack;
+    vector<int> theStack; // main
+    vector<int> minStack; // min
     MinStack() {
         
     }
