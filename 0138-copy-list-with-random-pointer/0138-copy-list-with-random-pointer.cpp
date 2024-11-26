@@ -19,8 +19,8 @@ public:
     Node* copyRandomList(Node* head) {
         if(head == NULL) return NULL;
         Node* newHead = new Node(head->val); // will return this
-        Node* newFirst = newHead;
-        Node* oldFirst = head;
+        Node* newFirst = newHead; // pointer to the new
+        Node* oldFirst = head; // pointer to the old
 
         unordered_map<Node*, Node*> ref;
         ref[head] = newHead;
