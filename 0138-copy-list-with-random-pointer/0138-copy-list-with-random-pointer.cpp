@@ -18,7 +18,7 @@ class Solution {
 public:
     Node* copyRandomList(Node* head) {
         if(head == NULL) return NULL;
-        Node* newHead = new Node(head->val); // will return this
+        Node* newHead = new Node(head->val);
         Node* newFirst = newHead; // pointer to the new
         Node* oldFirst = head; // pointer to the old
 
