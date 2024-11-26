@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0128-longest-consecutive-sequence) |
+| [0138-copy-list-with-random-pointer](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0138-copy-list-with-random-pointer) |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0205-isomorphic-strings) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0021-merge-two-sorted-lists) |
+| [0138-copy-list-with-random-pointer](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0141-linked-list-cycle) |
 ## Math
 |  |
