@@ -1,25 +1,29 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        vector<unordered_set<int>> columns(9);
-        vector<unordered_set<int>> rows(9);
-        vector<vector<unordered_set<int>>> cubes(3, vector<unordered_set<int>>(3));
+        // Single array to track constraints
+        int seen[27][9] = {0}; // 9 rows + 9 columns + 9 cubes, each with digits 1-9
 
         for (int row = 0; row < 9; row++) {
             for (int column = 0; column < 9; column++) {
-                if (board[row][column] == '.') continue;
-                if (rows[column].count(board[row][column]) > 0 
-                    || columns[row].count(board[row][column]) > 0
-                    || cubes[row / 3][column / 3].count(board[row][column]) > 0) {
+                char current = board[row][column];
+                if (current == '.') continue;
+
+                int num = current - '1'; // Convert '1'-'9' to 0-8
+                int cubeIndex = (row / 3) * 3 + (column / 3);
+
+                // Check row, column, and cube constraints
+                if (seen[row][num] || seen[9 + column][num] || seen[18 + cubeIndex][num]) {
                     return false;
-                } else {
-                    rows[column].insert(board[row][column]);
-                    columns[row].insert(board[row][column]);
-                    cubes[row / 3][column / 3].insert(board[row][column]);
                 }
+
+                // Mark the constraints
+                seen[row][num] = 1;           // Row constraint
+                seen[9 + column][num] = 1;    // Column constraint
+                seen[18 + cubeIndex][num] = 1; // Cube constraint
             }
         }
 
-        return true;
+        return true; // All checks passed
     }
 };
