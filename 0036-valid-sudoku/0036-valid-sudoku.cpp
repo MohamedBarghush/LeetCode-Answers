@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        int seen[27][9] = {0}; // single array
+        int seen[27][9] = {0}; // 9 rows + 9 columns + 9 cubes each with 1-9 digits single array
 
         for (int row = 0; row < 9; row++) {
             for (int column = 0; column < 9; column++) {
