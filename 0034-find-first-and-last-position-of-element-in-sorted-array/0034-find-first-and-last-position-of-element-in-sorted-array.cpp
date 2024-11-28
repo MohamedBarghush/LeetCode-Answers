@@ -4,12 +4,12 @@ public:
         if (nums.size() == 1 && nums[0] == target) return {0,0};
         int mini = 0, maxi = nums.size()-1;
         int mid, i;
-        vector<int> result = {9999999,0};
+        int result[2];
         while (mini <= maxi) {
             mid = mini + (maxi - mini) / 2;
 
             if (nums[mid] == target) {
-                result = {mid,mid};
+                result[0] = mid; result[1] = mid;
                 i = mid;
                 while (i >= 0 && nums[mid] == nums[i]) {
                     result[0] = i;
@@ -20,7 +20,7 @@ public:
                     result[1] = i;
                     i++;
                 }
-                return result;
+                return {result[0], result[1]};
             } else if (nums[mid] < target) {
                 mini = mid + 1;
                 continue;
