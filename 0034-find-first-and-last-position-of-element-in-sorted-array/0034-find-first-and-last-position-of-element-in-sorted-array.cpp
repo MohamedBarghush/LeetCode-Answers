@@ -1,43 +1,35 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        if (nums.empty()) return {-1, -1}; // Handle edge case
-
-        int mini = 0, maxi = nums.size() - 1;
-        int mid;
-
-        // Find the leftmost index of the target
-        int left = -1;
+        if (nums.size() == 1 && nums[0] == target) return {0,0};
+        int mini = 0, maxi = nums.size()-1;
+        int mid, i;
+        int result[2];
         while (mini <= maxi) {
             mid = mini + (maxi - mini) / 2;
+
             if (nums[mid] == target) {
-                left = mid;
-                maxi = mid - 1; // Narrow the range to find the leftmost occurrence
+                result[0] = mid; result[1] = mid;
+                i = mid;
+                while (i >= 0 && nums[mid] == nums[i]) {
+                    result[0] = i;
+                    i--;
+                }
+                i = mid;
+                while (i < nums.size() && nums[mid] == nums[i]) {
+                    result[1] = i;
+                    i++;
+                }
+                return {result[0], result[1]};
             } else if (nums[mid] < target) {
                 mini = mid + 1;
+                continue;
             } else {
                 maxi = mid - 1;
+                continue;
             }
         }
 
-        if (left == -1) return {-1, -1}; // If target not found
-
-        // Find the rightmost index of the target
-        mini = left; // Start from the leftmost occurrence
-        maxi = nums.size() - 1;
-        int right = -1;
-        while (mini <= maxi) {
-            mid = mini + (maxi - mini) / 2;
-            if (nums[mid] == target) {
-                right = mid;
-                mini = mid + 1; // Narrow the range to find the rightmost occurrence
-            } else if (nums[mid] < target) {
-                mini = mid + 1;
-            } else {
-                maxi = mid - 1;
-            }
-        }
-
-        return {left, right};
+        return {-1,-1};
     }
 };
