@@ -27,8 +27,6 @@ public:
         }
     }
     int minSubArrayLen(int target, vector<int>& nums) {
-        int sum = 0;
-        if (sum >= target) ans = nums.size();
         binary_shit(nums, 1, nums.size(), target);
         return ans == -1 ? 0:ans;
 
