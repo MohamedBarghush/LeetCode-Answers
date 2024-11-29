@@ -3,6 +3,7 @@ public:
     int minSubArrayLen(int target, vector<int>& nums) {
         int ans = 0;
         int l=0,r = nums.size(),m;
+        // binary search on the size of the array
         while(l <= r){
             m = (l + r) / 2;
             int sum{};
