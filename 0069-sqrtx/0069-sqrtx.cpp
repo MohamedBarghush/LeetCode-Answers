@@ -11,7 +11,7 @@ public:
         }
     }
     int mySqrt(int x) {
-        if (x < 2) return x;
+        if (x < 2) return x; // base case
         return binary_search(0, x, x);
     }
 };
