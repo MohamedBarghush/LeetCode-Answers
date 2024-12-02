@@ -7,10 +7,10 @@ public:
             {10, "X"}, {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}
         };
 
-        string ans;
+        string ans = "";
         for (const auto& [value, roman] : vals) {
             while (num >= value) {
-                ans.append(roman);
+                ans += roman;
                 num -= value;
             }
         }
