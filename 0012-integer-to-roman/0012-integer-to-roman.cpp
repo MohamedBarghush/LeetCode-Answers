@@ -19,21 +19,22 @@ public:
             {1, "I"}
         };
         for (int i = val.length()-1; i >= 0; i--) {
-            int actual = (val[i] - '0') * pow(10, val.length() - (i+1));
+            int value = val[i] - '0';
+            int actual = value * pow(10, val.length() - (i+1));
             if (vals.count(actual) > 0) {
                 ans = vals[actual] + ans;
             } else {
                 int toAddSingular = 0;
-                if ((val[i] - '0') > 5) {
-                    toAddSingular = (val[i] - '0') - 5;
+                if (value > 5) {
+                    toAddSingular = value - 5;
                 } else {
-                    toAddSingular = val[i] - '0';
+                    toAddSingular = value;
                 }
                 for (int j = 0; j < toAddSingular; j++)
-                    ans = vals[actual / (val[i] - '0')] + ans;
+                    ans = vals[actual / value] + ans;
 
                 if ((val[i] - '0') > 5) {
-                    ans = vals[(val[i] - '0' - toAddSingular) * pow(10, val.length() - (i+1))] + ans;
+                    ans = vals[(value - toAddSingular) * pow(10, val.length() - (i+1))] + ans;
                 }
             }
         }
