@@ -8,10 +8,10 @@ public:
         };
 
         string ans = "";
-        for (const auto& [value, roman] : vals) {
-            while (num >= value) {
-                ans += roman;
-                num -= value;
+        for (pair<int, string>& value : vals) {
+            while (num >= value.first) {
+                ans += value.second;
+                num -= value.first;
             }
         }
 
