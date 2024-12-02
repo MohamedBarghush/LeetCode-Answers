@@ -33,7 +33,7 @@ public:
                 for (int j = 0; j < toAddSingular; j++)
                     ans = vals[actual / value] + ans;
 
-                if ((val[i] - '0') > 5) {
+                if (value > 5) {
                     ans = vals[(value - toAddSingular) * pow(10, val.length() - (i+1))] + ans;
                 }
             }
