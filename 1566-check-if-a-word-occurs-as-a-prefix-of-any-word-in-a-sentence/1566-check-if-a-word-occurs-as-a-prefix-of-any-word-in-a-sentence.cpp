@@ -11,27 +11,23 @@ public:
                 }
                 continue;
             } else {
-                if (start) {
-                    if (sentence[i] == searchWord[0]) {
-                        int j;
-                        bool found = true;
-                        for (j = 0; j < searchWord.length(); j++) {
-                            if (sentence[i+j] != searchWord[j]) {
-                                found = false;
-                                break;
-                            }
-                            cout << "word is: " << word_index << endl;
-                            cout << "from: " << sentence[i+j] << " to: " << searchWord[j] << endl;
+                if (!start) continue;
+                
+                if (sentence[i] == searchWord[0]) {
+                    int j;
+                    bool found = true;
+                    for (j = 0; j < searchWord.length(); j++) {
+                        if (sentence[i+j] != searchWord[j]) {
+                            found = false;
+                            break;
                         }
-                        if (found)
-                            return word_index;
-                        else {
-                            start = false;
-                        }
-                    } else {
-                        start = false;
                     }
-                }
+                    if (found)
+                        return word_index;
+                    else
+                        start = false;
+                } else
+                    start = false;
             }
         }
 
