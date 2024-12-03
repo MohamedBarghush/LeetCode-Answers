@@ -3,7 +3,7 @@ public:
     int lengthOfLongestSubstring(string s) {
         int maxCount = 0;
         int p1=0, p2=0;
-        vector<int> charCount(127, 0);
+        vector<int> charCount(127, 0); // 127 ascii chars
         while (p2 < s.length()) {
             charCount[s[p2]]++;
             
