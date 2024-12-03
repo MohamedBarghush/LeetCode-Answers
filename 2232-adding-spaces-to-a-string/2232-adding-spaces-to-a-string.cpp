@@ -2,7 +2,7 @@ class Solution {
 public:
     string addSpaces(string s, vector<int>& spaces) {
         int newLen = s.length() + spaces.size();
-        char newOne[newLen]; // pre-allocated
+        char newOne[newLen]; // pre-allocated chars
         int index = 0, newIndex = 0;
 
         for (int i = 0; i < s.length(); i++) {
