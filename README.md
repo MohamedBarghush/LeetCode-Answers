@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0228-summary-ranges](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0228-summary-ranges) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
+| [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
 ## Stack
 |  |
 | ------- |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
 ## String Matching
 |  |
 | ------- |
@@ -138,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
+| [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
 ## Binary Search
 |  |
 | ------- |
