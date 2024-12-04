@@ -13,7 +13,7 @@ public:
             result.push_back({nums1[i], nums2[j]});
             minHeap.pop();
 
-            if (!j && i+1 < nums1.size()) minHeap.push({nums1[i+1]+nums2[j], i+1, j});
+            if (j == 0 && i+1 < nums1.size()) minHeap.push({nums1[i+1]+nums2[j], i+1, j});
             if (j + 1 < nums2.size()) minHeap.push({nums1[i] + nums2[j + 1], i, j + 1});
         }
 
