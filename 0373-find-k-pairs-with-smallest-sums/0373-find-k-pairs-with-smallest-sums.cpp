@@ -4,7 +4,7 @@ public:
         if (nums1.empty() || nums2.empty() || k <= 0) return {};
 
         vector<vector<int>> result;
-        priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<tuple<int,int,int>>> minHeap; // use a complicated priority queue
+        priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<tuple<int,int,int>>> minHeap;
         
         minHeap.push({nums1[0] + nums2[0], 0, 0});
 
