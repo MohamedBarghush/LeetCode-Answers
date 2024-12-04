@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
-        if (nums1.empty() || nums2.empty() || k <= 0) return {};
+        if (nums1.empty() || nums2.empty() || k <= 0) return {}; // base case
 
         vector<vector<int>> result;
         priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<tuple<int,int,int>>> minHeap;  // use a complicated priority queue
