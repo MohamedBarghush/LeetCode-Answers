@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
         vector<vector<int>> result;
-        priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<tuple<int,int,int>>> minHeap;  // use a complicated priority queue
+        priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<tuple<int,int,int>>> minHeap;
         
         minHeap.push({nums1[0] + nums2[0], 0, 0});
         int n = nums1.size(), m = nums2.size();
