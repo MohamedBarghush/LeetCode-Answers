@@ -1,25 +1,25 @@
 class Solution {
 public:
     bool canChange(string start, string target) {
-        int case1_idx = 0, case2_idx = 0;
-        int n = start.length();
+        int right = 0, left = 0;
+        int n = target.length();
 
-        while (case1_idx < n || case2_idx < n) {
-            while (case1_idx < n && start[case1_idx] == '_') ++case1_idx;
-            while (case2_idx < n && target[case2_idx] == '_') ++case2_idx;
+        for (int i = 0, j = 0; i < n; i++) {
+            if (start[i] == 'R') right++;
+            if (start[i] == 'L') left++;
+            if (target[i] == 'R') right--;
+            if (target[i] == 'L') left--;
 
-            if ((case1_idx < n) != (case2_idx < n)) return false;
-
-            if (case1_idx < n && case2_idx < n) {
-                if (start[case1_idx] != target[case2_idx]) return false;
-                if (start[case1_idx] == 'L' && case1_idx < case2_idx) return false;
-                if (start[case1_idx] == 'R' && case1_idx > case2_idx) return false;
+            if (start[i] != '_') {
+                while(j < n && target[j] == '_') j++;
+                if (start[i] != target[j] 
+                || (start[i] == 'R' && i > j)
+                || (start[i] == 'L' && i < j))
+                    return false;
+                j++;
             }
-
-            ++case1_idx;
-            ++case2_idx;
         }
 
-        return true;
+        return (right == 0 && left == 0) ? true : false;
     }
 };
