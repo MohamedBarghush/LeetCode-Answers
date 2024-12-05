@@ -12,7 +12,7 @@ public:
 
             if (start[i] != '_') {
                 while(j < n && target[j] == '_') j++;
-                if (start[i] != target[j]        // not matching
+                if (start[i] != target[j]        
                 || (start[i] == 'R' && i > j)    // found R but indices fked up
                 || (start[i] == 'L' && i < j))   // found L but indices fked up
                     return false;
