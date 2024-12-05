@@ -10,8 +10,6 @@ public:
 
             if ((case1_idx < n) != (case2_idx < n)) return false;
 
-            if (case1_idx < n && case2_idx < n)
-
             if (case1_idx < n && case2_idx < n) {
                 if (start[case1_idx] != target[case2_idx]) return false;
                 if (start[case1_idx] == 'L' && case1_idx < case2_idx) return false;
