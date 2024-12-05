@@ -6,7 +6,7 @@ public:
         for (char c : start) if (c != '_') case1 += c;
         for (char c : target) if (c != '_') case2 += c;
 
-        if (case1 != case2) return false;
+        if (case1 != case2) return false; // matching
 
         int case1_idx = 0, case2_idx = 0;
         for (int i = 0; i < start.length(); i++) {
