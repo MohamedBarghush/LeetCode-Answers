@@ -11,13 +11,10 @@
  */
 class Solution {
 public:
-    int traverse_tree (TreeNode* node) {
-        if (node == nullptr) return 0;
-        int leftCount = traverse_tree(node->left);
-        int rightCount = traverse_tree(node->right);
-        return max(leftCount, rightCount) + 1;
-    }
     int maxDepth(TreeNode* root) {
-        return traverse_tree(root);
+        if (root == nullptr) return 0;
+        int left = maxDepth(root->left);
+        int right = maxDepth(root->right);
+        return 1 + max(left, right);
     }
 };
