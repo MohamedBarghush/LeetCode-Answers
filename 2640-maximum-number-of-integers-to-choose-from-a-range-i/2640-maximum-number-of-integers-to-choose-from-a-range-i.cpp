@@ -1,14 +1,15 @@
 class Solution {
 public:
     int maxCount(vector<int>& banned, int n, int maxSum) {
-        unordered_set<int> ban(banned.begin(), banned.end());
-        int sum = 0;
+        vector<int> ban(1e4+1, 0);
+        for(int i : banned) ban[i] = 1;
         int count = 0;
         for (int i = 1; i <= n; i++) {
-            if (ban.count(i)) continue;
-            if (sum+i > maxSum) break;
-            sum += i;
-            count++;
+            if (ban[i]) continue;
+            if (maxSum >= i) {
+                count++;
+                maxSum -= i;
+            }
         }
 
         return count;
