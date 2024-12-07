@@ -7,7 +7,8 @@ public:
             int ops = 0;
             for (int n : nums) {
                 ops += (n-1) / mid;
-                if (ops > maxOperations) break;
+                if (ops > maxOperations) 
+                    break;
             }
             if (ops <= maxOperations) 
                 highest = mid;
