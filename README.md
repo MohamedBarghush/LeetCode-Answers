@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
 | [2240-intervals-between-identical-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2240-intervals-between-identical-elements) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0209-minimum-size-subarray-sum) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Sliding Window
 |  |
