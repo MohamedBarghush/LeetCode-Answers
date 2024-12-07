@@ -1,6 +1,7 @@
 class Solution {
 public:
     int binary_search(vector<int>& nums, int left, int right, int max_ops) {
+        // base case
         if (left == right)
             return left;
 
