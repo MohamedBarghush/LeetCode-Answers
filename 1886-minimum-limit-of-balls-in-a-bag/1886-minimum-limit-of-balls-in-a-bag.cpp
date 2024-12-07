@@ -5,7 +5,10 @@ public:
         while (lowest < highest) {
             int mid = lowest + (highest - lowest) / 2;
             int ops = 0;
-            for (int n : nums) if ((ops += (n - 1) / mid) > maxOperations) break;
+            for (int n : nums) {
+                ops += (n-1) / mid;
+                if (ops > maxOperations) break;
+            }
             ops <= maxOperations ? highest = mid : lowest = mid + 1;
         }
         return highest;
