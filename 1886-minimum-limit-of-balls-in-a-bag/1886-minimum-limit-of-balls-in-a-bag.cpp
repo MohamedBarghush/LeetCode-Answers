@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minimumSize(vector<int>& nums, int maxOperations) {
-        int lowest = 1, highest = *max_element(nums.begin(), nums.end());
+        int lowest = 1, highest = 1e9;
         while (lowest < highest) {
             int mid = lowest + (highest - lowest) / 2;
             int ops = 0;
