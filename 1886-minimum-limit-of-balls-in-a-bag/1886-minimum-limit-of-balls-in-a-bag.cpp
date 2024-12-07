@@ -9,7 +9,8 @@ public:
                 ops += (n-1) / mid;
                 if (ops > maxOperations) break;
             }
-            ops <= maxOperations ? highest = mid : lowest = mid + 1;
+            if (ops <= maxOperations) highest = mid;
+            else lowest = mid + 1;
         }
         return highest;
     }
