@@ -1,21 +1,21 @@
 class Solution {
 public:
     int maxTwoEvents(vector<vector<int>>& events) {
-        int n = events.size(); // max effiency
+        // int n = ; // max effiency
         sort(events.begin(), events.end());
 
-        vector<int> suffixMax(n);
-        suffixMax[n-1] = events[n-1][2];
+        vector<int> suffixMax(events.size());
+        suffixMax[events.size()-1] = events[events.size()-1][2];
 
-        for (int i = n - 2; i >= 0; i--)
+        for (int i = events.size() - 2; i >= 0; i--)
             suffixMax[i] = max(events[i][2], suffixMax[i + 1]);
 
         int maxSum = 0, left = 0, right = 0, mid = 0;
         int nextEventIndex = -1;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < events.size(); i++) {
             left = i + 1;
-            right = n - 1;
+            right = events.size() - 1;
             nextEventIndex = -1;
 
             while (left <= right) {
