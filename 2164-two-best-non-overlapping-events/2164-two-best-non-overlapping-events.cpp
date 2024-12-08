@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxTwoEvents(vector<vector<int>>& events) {
-        int n = events.size();
+        int n = events.size(); // for maximum optimization
 
         sort(events.begin(), events.end(), [](const vector<int>& a, const vector<int>& b) {
             return a[0] < b[0];
