@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxTwoEvents(vector<vector<int>>& events) {
-        int n = events.size(); // precomputed for efficiency
+        int n = events.size(); 
 
         sort(events.begin(), events.end());
 
