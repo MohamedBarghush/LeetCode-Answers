@@ -1,25 +1,26 @@
 class Solution {
 public:
     int maxTwoEvents(vector<vector<int>>& events) {
-        // int n = ; // max effiency
-        sort(events.begin(), events.end());
+        int n = events.size();
 
-        vector<int> suffixMax(events.size());
-        suffixMax[events.size()-1] = events[events.size()-1][2];
+        sort(events.begin(), events.end(), [](const vector<int>& a, const vector<int>& b) {
+            return a[0] < b[0];
+        });
 
-        for (int i = events.size() - 2; i >= 0; i--)
+        vector<int> suffixMax(n);
+        suffixMax[n-1] = events[n-1][2];
+
+        for (int i = n - 2; i >= 0; i--)
             suffixMax[i] = max(events[i][2], suffixMax[i + 1]);
 
-        int maxSum = 0, left = 0, right = 0, mid = 0;
-        int nextEventIndex = -1;
+        int maxSum = 0;
 
-        for (int i = 0; i < events.size(); i++) {
-            left = i + 1;
-            right = events.size() - 1;
-            nextEventIndex = -1;
+        for (int i = 0; i < n; i++) {
+            int left = i + 1, right = n - 1;
+            int nextEventIndex = -1;
 
             while (left <= right) {
-                mid = left + (right - left) / 2;
+                int mid = left + (right - left) / 2;
                 if (events[mid][0] > events[i][1]) {
                     nextEventIndex = mid;
                     right = mid - 1;
