@@ -6,13 +6,12 @@ public:
         stepsToReach[n-1] = true;
 
         for (int i = n - 1; i >= 0; i--) {
-            int o = nums[i], u = i;
-            while (u <= n-1 && o >= 0) {
-                if (stepsToReach[u] == true) {
+            int o = nums[i];
+            while (i+o <= n-1 && o >= 0) {
+                if (stepsToReach[i+o] == true) {
                     stepsToReach[i] = true;
                     break;
                 }
-                u++;
                 o--;
             }
         }
