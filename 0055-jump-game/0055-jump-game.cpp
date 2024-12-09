@@ -2,19 +2,18 @@ class Solution {
 public:
     bool canJump(vector<int>& nums) {
         int n = nums.size();
-        vector<bool> stepsToReach(n, false);
-        stepsToReach[n-1] = true;
-
-        for (int i = n - 1; i >= 0; i--) {
-            int o = nums[i];
-            while (i+o <= n-1 && o >= 0) {
-                if (stepsToReach[i+o] == true) {
-                    stepsToReach[i] = true;
-                    break;
-                }
-                o--;
+        int powerRemaining = 0;
+        bool result = true;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] == 0 && powerRemaining == 0 && i != nums.size()-1) {
+                result = false;
+                break;
             }
+            if (nums[i] > powerRemaining) {
+                powerRemaining = nums[i];
+            }
+            powerRemaining--;
         }
-        return stepsToReach[0];
+        return result;
     }
 };
