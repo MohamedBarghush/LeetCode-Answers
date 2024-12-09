@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
 | [2240-intervals-between-identical-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2240-intervals-between-identical-elements) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3427-special-array-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3427-special-array-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3427-special-array-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3427-special-array-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0209-minimum-size-subarray-sum) |
 | [2240-intervals-between-identical-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2240-intervals-between-identical-elements) |
+| [3427-special-array-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3427-special-array-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
