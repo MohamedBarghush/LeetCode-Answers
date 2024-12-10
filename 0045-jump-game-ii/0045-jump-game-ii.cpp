@@ -8,10 +8,8 @@ public:
         for (int i = 0; i < nums.size(); i++) {
             if (steps[i] == 1e6) continue;
             int u = 0;
-            while (u <= nums[i] && i+u < nums.size()) {
+            for (int u = 0; u <= nums[i] && i+u < n; u++)
                 steps[i+u] = min(steps[i+u], steps[i]+1);
-                u++;
-            }
         }
 
         return steps[n-1];
