@@ -1,30 +1,21 @@
 class Solution {
 public:
     int maximumLength(string s) {
-        int n = s.length();
-        unordered_map<string, int> count_map; // the count of each string
-        
-        for (int i = 0; i < n; i++) {
-            char ch = s[i];
-            string current_substring = "";
-            
-            for (int length = 1; i + length <= n; length++) {
-                current_substring += ch;
-                if (s.substr(i, length) == current_substring) {
-                    count_map[current_substring]++;
-                } else {
-                    break;
-                }
+        int l = 0, r = 1, n = s.size();
+        int cnt[26][60] = {};
+        int ans = -1;
+        while(r <= n){
+            while(r < n && s[r] == s[l]) r++;
+            //either reach the end or not equal
+            for(int i = r-1; i>=l;i--){
+                int len = i - l + 1;
+                cnt[s[l]-'a'][len] += r-i;
+                if(cnt[s[l]-'a'][len]>2 && len > ans)
+                    ans = len;
             }
+            l = r;
+            r++;
         }
-        
-        int max_len = -1;
-        for (const auto& entry : count_map) {
-            if (entry.second >= 3) {
-                max_len = max(max_len, static_cast<int>(entry.first.length()));
-            }
-        }
-        
-        return max_len;
+        return ans;
     }
 };
