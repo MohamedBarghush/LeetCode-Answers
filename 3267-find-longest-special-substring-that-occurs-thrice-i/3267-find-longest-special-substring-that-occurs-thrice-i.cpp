@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maximumLength(string s) {
-        int l = 0, r = 1, n = s.size();
+        int l = 0, r = 1, n = s.size(); // haha
         int cnt[26][60] = {};
         int ans = -1;
         while(r <= n){
