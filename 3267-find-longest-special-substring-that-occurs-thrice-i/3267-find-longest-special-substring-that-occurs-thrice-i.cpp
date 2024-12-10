@@ -6,7 +6,6 @@ public:
         int ans = -1;
         while(r <= n){
             while(r < n && s[r] == s[l]) r++;
-            //either reach the end or not equal
             for(int i = r-1; i>=l;i--){
                 int len = i - l + 1;
                 cnt[s[l]-'a'][len] += r-i;
