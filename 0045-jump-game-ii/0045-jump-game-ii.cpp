@@ -2,16 +2,22 @@ class Solution {
 public:
     int jump(vector<int>& nums) {
         int n = nums.size();
-        vector<int> steps(n, 1e6);
-        steps[0] = 0;
+        if (n <= 1) return 0;
 
-        for (int i = 0; i < nums.size(); i++) {
-            if (steps[i] == 1e6) continue;
-            int u = 0;
-            for (int u = 0; u <= nums[i] && i+u < n; u++)
-                steps[i+u] = min(steps[i+u], steps[i]+1);
+        int jumps = 0;
+        int currentEnd = 0;
+        int farthest = 0;
+
+        for (int i = 0; i < n-1; i++) {
+            farthest = max(farthest, i + nums[i]);
+            if (i == currentEnd) {
+                jumps++;
+                currentEnd = farthest;
+
+                if (currentEnd >= n - 1) break;
+            }
         }
 
-        return steps[n-1];
+        return jumps;
     }
 };
