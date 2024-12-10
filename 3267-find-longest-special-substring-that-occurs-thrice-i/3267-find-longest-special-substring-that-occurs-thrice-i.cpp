@@ -2,7 +2,7 @@ class Solution {
 public:
     int maximumLength(string s) {
         int n = s.length();
-        unordered_map<string, int> count_map;
+        unordered_map<string, int> count_map; // the count of each string
         
         for (int i = 0; i < n; i++) {
             char ch = s[i];
