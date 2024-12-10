@@ -7,10 +7,9 @@ public:
         while(r <= n) {
             while(r < n && s[r] == s[l]) r++;
             for(int i = r-1; i>=l;i--) {
-                int len = i - l + 1;
-                cnt[(s[l]-'a')+(26*len)] += r-i;
-                if(cnt[(s[l]-'a')+(26*len)]>2 && len > ans)
-                    ans = len;
+                cnt[(s[l]-'a')+(26*(i - l + 1))] += r-i;
+                if(cnt[(s[l]-'a')+(26*(i - l + 1))]>2 && (i - l + 1) > ans)
+                    ans = (i - l + 1);
             }
             l = r;
             r++;
