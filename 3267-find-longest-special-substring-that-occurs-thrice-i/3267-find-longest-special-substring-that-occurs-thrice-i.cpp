@@ -2,7 +2,7 @@ class Solution {
 public:
     int maximumLength(string s) {
         int l = 0, r = 1, n = s.size();
-        int cnt[26][51] = {};
+        int cnt[26][51] = {}; // final min size
         int ans = -1;
         while(r <= n) {
             while(r < n && s[r] == s[l]) r++;
