@@ -2,7 +2,7 @@ class Solution {
 public:
     int maximumLength(string s) {
         int l = 0, r = 1, n = s.size();
-        int cnt[26][60] = {};
+        vector<vector<int>> cnt(26, vector<int>(60, 0));
         int ans = -1;
         while(r <= n){
             while(r < n && s[r] == s[l]) r++;
