@@ -19,6 +19,6 @@ public:
     }
     bool isSymmetric(TreeNode* root) {
         // recursive
-        return isMirror(root, root);
+        return isMirror(root->left, root->right);
     }
 };
