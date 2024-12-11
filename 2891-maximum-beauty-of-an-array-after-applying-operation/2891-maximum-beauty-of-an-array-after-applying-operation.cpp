@@ -1,21 +1,17 @@
 class Solution {
 public:
     int maximumBeauty(vector<int>& nums, int k) {
-        map<int, int> freq_changes;
-
-        for (int num : nums) {
-            freq_changes[num - k]++;
-            freq_changes[num + k + 1]--;
+        int m = *max_element(nums.begin(), nums.end()) + k * 2 + 2;
+        vector<int> d(m);
+        for (int x : nums) {
+            d[x]++;
+            d[x + k * 2 + 1]--;
         }
-
-        int max_beauty = 0;
-        int current_freq = 0;
-
-        for (auto& [key, change] : freq_changes) {
-            current_freq += change;
-            max_beauty = max(max_beauty, current_freq);
+        int ans = 0, s = 0;
+        for (int x : d) {
+            s += x;
+            ans = max(ans, s);
         }
-
-        return max_beauty;
+        return ans;
     }
 };
