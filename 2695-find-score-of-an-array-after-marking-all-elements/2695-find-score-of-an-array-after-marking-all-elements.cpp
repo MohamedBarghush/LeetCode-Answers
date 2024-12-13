@@ -13,7 +13,7 @@ public:
             return a.first < b.first;
         });
 
-        std::vector<bool> marked(n, false);
+        vector<bool> marked(n, false);
         long long score = 0;
 
         for (const auto& [value, index] : elements) {
