@@ -2,7 +2,7 @@ class Solution {
 public:
     long long findScore(vector<int>& nums) {
         int n = nums.size();
-        std::vector<std::pair<int, int>> elements; // Pair of (value, index)
+        vector<pair<int, int>> elements;
 
         // Store values and their indices
         for (int i = 0; i < n; i++) {
