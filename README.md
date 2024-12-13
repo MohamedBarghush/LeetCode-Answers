@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
+| [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 ## Simulation
 |  |
 | ------- |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0209-minimum-size-subarray-sum) |
+| [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0112-path-sum) |
+| [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
 ## Depth-First Search
 |  |
@@ -266,5 +269,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0112-path-sum) |
+| [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
