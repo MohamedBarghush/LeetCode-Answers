@@ -1,9 +1,9 @@
 class Solution {
 public:
     long long continuousSubarrays(vector<int>& nums) {
-        int right = 0, left = 0; // window indices
-        int curMin, curMax; // to track the condition
-        long long windowLen = 0, total = 0; // for calculation
+        int right = 0, left = 0;
+        int curMin, curMax;
+        long long windowLen = 0, total = 0;
 
         curMin = curMax = nums[right];
 
