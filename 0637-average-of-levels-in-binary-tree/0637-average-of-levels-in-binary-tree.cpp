@@ -12,7 +12,7 @@
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
-        if (!root) return {};
+        if (!root) return {}; // base case
         vector<double> avgs;
         queue<TreeNode*> bfs;
         bfs.push(root);
