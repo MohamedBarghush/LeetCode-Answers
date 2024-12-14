@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long continuousSubarrays(vector<int>& nums) {
-        int right = 0, left = 0; // for tracking window
+        int right = 0, left = 0;
         int curMin, curMax;
         long long windowLen = 0, total = 0;
 
