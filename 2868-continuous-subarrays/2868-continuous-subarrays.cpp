@@ -3,7 +3,7 @@ public:
     long long continuousSubarrays(vector<int>& nums) {
         int right = 0, left = 0; // window indices
         int curMin, curMax; // to track the condition
-        long long windowLen = 0, total = 0;
+        long long windowLen = 0, total = 0; // for calculation
 
         curMin = curMax = nums[right];
 
