@@ -8,28 +8,34 @@ public:
             return newRatio - oldRatio;
         };
 
-        priority_queue<pair<double, pair<int, int>>> maxHeap;
+        priority_queue<pair<double, int>> maxHeap;
 
-        for (auto& cls : classes) {
-            int pass = cls[0];
-            int total = cls[1];
+        for (int i = 0; i < classes.size(); i++) {
+            int pass = classes[i][0];
+            int total = classes[i][1];
             double impact = calculateImpact(pass, total);
-            maxHeap.push({impact, {pass, total}});
+            maxHeap.push({impact, i});
         }
 
         while (extraStudents > 0) {
-            auto [impact, classer] = maxHeap.top();
+            auto [impact, classIndex] = maxHeap.top();
             maxHeap.pop();
-            impact = calculateImpact(classer.first + 1, classer.second + 1);
-            maxHeap.push({impact, {classer.first + 1, classer.second + 1}});
+            
+            classes[classIndex][0] += 1;
+            classes[classIndex][1] += 1;
+
+            double newImpact = calculateImpact(classes[classIndex][0], classes[classIndex][1]);
+
+            maxHeap.push({newImpact, classIndex});
+
             extraStudents--;
         }
 
         double totalRatio = 0.0;
         while (!maxHeap.empty()) {
-            auto [_, cls] = maxHeap.top();
+            auto [_, classIndex] = maxHeap.top();
             maxHeap.pop();
-            totalRatio += double(cls.first) / cls.second;
+            totalRatio += double(classes[classIndex][0]) / classes[classIndex][1];
         }
 
         return totalRatio / classes.size();
