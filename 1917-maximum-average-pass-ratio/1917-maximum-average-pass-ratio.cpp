@@ -8,7 +8,6 @@ public:
             return newRatio - oldRatio;
         };
 
-        // Max-heap to store the classes based on the impact of adding an extra student
         priority_queue<pair<double, int>> maxHeap;
 
         // Initialize the heap with the impact values of all classes
