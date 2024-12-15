@@ -4,7 +4,7 @@ public:
         int n = matrix.size();
         int m = matrix[0].size();
         int size = n*m;
-        vector<int> result(size);
+        vector<int> result(size, 0);
         vector<pair<int, int>> dir = {
             { 0,  1},
             { 1,  0},
