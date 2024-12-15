@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0036-valid-sudoku) |
 | [0045-jump-game-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0045-jump-game-ii) |
+| [0054-spiral-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0057-insert-interval) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
 | [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
 ## Prefix Sum
 |  |
