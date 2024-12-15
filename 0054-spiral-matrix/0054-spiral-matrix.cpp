@@ -4,7 +4,7 @@ public:
         int n = matrix.size();
         int m = matrix[0].size();
         int size = n*m;
-        vector<int> result;
+        vector<int> result(size);
         vector<pair<int, int>> dir = {
             { 0,  1},
             { 1,  0},
@@ -16,7 +16,7 @@ public:
         int row = 0, col = 0;
 
         for (int i = 0; i < size; i++) {
-            result.push_back(matrix[row][col]);
+            result[i] = matrix[row][col];
             matrix[row][col] = -101;
 
             int nextRow = row + dir[direction].first;
