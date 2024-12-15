@@ -1,6 +1,7 @@
 class Solution {
 public:
     double maxAverageRatio(vector<vector<int>>& classes, int extraStudents) {
+        // lambda function to calculate impact
         auto calculateImpact = [](int pass, long total) {
             double oldRatio = double(pass) / total;
             double newRatio = double(pass + 1) / (total + 1);
