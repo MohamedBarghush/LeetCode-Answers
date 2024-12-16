@@ -13,26 +13,10 @@ public:
         int res = 0;
         char last = 'A';
         for (int i = s.length(); i >= 0; i--) {
-            if (s[i] == 'I') {
-                if (last == 'V' || last == 'X') {
-                    res -= roman_to_int[s[i]];
-                    last = s[i];
-                    continue;
-                }
-            } else if (s[i] == 'X') {
-                if (last == 'L' || last == 'C') {
-                    res -= roman_to_int[s[i]];
-                    last = s[i];
-                    continue;
-                }
-            } else if (s[i] == 'C') {
-                if (last == 'D' || last == 'M') {
-                    res -= roman_to_int[s[i]];
-                    last = s[i];
-                    continue;
-                }
-            }
-            res += roman_to_int[s[i]];
+            if (roman_to_int[s[i]] < roman_to_int[last]) {
+                res -= roman_to_int[s[i]];
+            } else 
+                res += roman_to_int[s[i]];
             last = s[i];
         }
 
