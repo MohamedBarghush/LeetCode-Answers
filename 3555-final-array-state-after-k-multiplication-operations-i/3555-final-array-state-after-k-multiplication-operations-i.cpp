@@ -3,9 +3,8 @@ public:
     struct Compare {
         bool operator()(const pair<int, int>& a, const pair<int, int>& b) {
             // Compare by the number first, then by the index
-            if (a.first == b.first) {
+            if (a.first == b.first)
                 return a.second > b.second; // Smaller index has higher priority
-            }
             return a.first > b.first; // Smaller number has higher priority
         }
     };
