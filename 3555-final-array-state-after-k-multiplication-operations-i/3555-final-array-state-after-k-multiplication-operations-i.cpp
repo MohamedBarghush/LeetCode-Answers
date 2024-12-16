@@ -4,7 +4,7 @@ public:
         bool operator()(const pair<int, int>& a, const pair<int, int>& b) {
             if (a.first == b.first)
                 return a.second > b.second; // Smaller index has higher priority
-            return a.first > b.first; // Smaller number has higher priority
+            return a.first > b.first;
         }
     };
     vector<int> getFinalState(vector<int>& nums, int k, int multiplier) {
