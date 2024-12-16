@@ -8,7 +8,7 @@ public:
         }
     };
     vector<int> getFinalState(vector<int>& nums, int k, int multiplier) {
-        priority_queue<pair<int, int>, vector<pair<int, int>>, Compare> heap;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, Compare> heap; // minheap
 
         for (int i = 0; i < nums.size(); i++) {
             heap.push({nums[i], i});
