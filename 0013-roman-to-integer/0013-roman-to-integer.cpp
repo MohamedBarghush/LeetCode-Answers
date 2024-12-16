@@ -13,9 +13,9 @@ public:
         int res = 0;
         char last = 'A';
         for (int i = s.length(); i >= 0; i--) {
-            if (roman_to_int[s[i]] < roman_to_int[last]) {
+            if (roman_to_int[s[i]] < roman_to_int[last])
                 res -= roman_to_int[s[i]];
-            } else 
+            else 
                 res += roman_to_int[s[i]];
             last = s[i];
         }
