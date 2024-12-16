@@ -9,7 +9,7 @@ public:
             {'C', 100},
             {'D', 500},
             {'M', 1000}
-        }; // prestore
+        };
         int res = 0;
         char last = 'A';
         for (int i = s.length(); i >= 0; i--) {
