@@ -1,34 +1,34 @@
 class Solution {
 public:
     string repeatLimitedString(string s, int repeatLimit) {
-        sort(s.rbegin(), s.rend());
+        vector<int> freq(26, 0);
+        for (char ch : s) {
+            freq[ch - 'a']++;
+        }
 
         string result;
-        int freq = 1;
-        int pointer = 0;
+        int currentCharIndex = 25;  // Start from the largest character
+        while (currentCharIndex >= 0) {
+            if (freq[currentCharIndex] == 0) {
+                currentCharIndex--;
+                continue;
+            }
 
-        for (int i = 0; i < s.size(); ++i) {
-            if (!result.empty() && result.back() == s[i]) {
-                if (freq < repeatLimit) {
-                    result += s[i];
-                    freq++;
-                } else {
-                    pointer = max(pointer, i + 1);
-                    while (pointer < s.size() && s[pointer] == s[i]) {
-                        pointer++;
-                    }
+            int use = min(freq[currentCharIndex], repeatLimit);
+            result.append(use, 'a' + currentCharIndex);
+            freq[currentCharIndex] -= use;
 
-                    if (pointer < s.size()) {
-                        result += s[pointer];
-                        swap(s[i], s[pointer]);
-                        freq = 1;
-                    } else {
-                        break;
-                    }
+            if (freq[currentCharIndex] >
+                0) {  // Need to add a smaller character
+                int smallerCharIndex = currentCharIndex - 1;
+                while (smallerCharIndex >= 0 && freq[smallerCharIndex] == 0) {
+                    smallerCharIndex--;
                 }
-            } else {
-                result += s[i];
-                freq = 1;
+                if (smallerCharIndex < 0) {
+                    break;
+                }
+                result.push_back('a' + smallerCharIndex);
+                freq[smallerCharIndex]--;
             }
         }
 
