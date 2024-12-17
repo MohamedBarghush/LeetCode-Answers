@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2240-intervals-between-identical-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2240-intervals-between-identical-elements) |
+| [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
+| [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## String
 |  |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
+| [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -223,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0055-jump-game) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1917-maximum-average-pass-ratio](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1917-maximum-average-pass-ratio) |
+| [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Graph
 |  |
@@ -254,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [1917-maximum-average-pass-ratio](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
+| [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2868-continuous-subarrays) |
