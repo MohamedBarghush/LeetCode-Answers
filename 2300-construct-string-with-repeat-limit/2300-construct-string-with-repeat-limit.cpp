@@ -1,37 +1,36 @@
 class Solution {
 public:
     string repeatLimitedString(string s, int repeatLimit) {
-        vector<int> freq(26, 0);
+        int freq[26] = {};
         for (char ch : s) {
             freq[ch - 'a']++;
         }
 
-        string result;
-        int currentCharIndex = 25;  // Start from the largest character
-        while (currentCharIndex >= 0) {
-            if (freq[currentCharIndex] == 0) {
-                currentCharIndex--;
+        string res;
+        int currIdx = 25;
+        while (currIdx >= 0) {
+            if (freq[currIdx] == 0) {
+                currIdx--;
                 continue;
             }
 
-            int use = min(freq[currentCharIndex], repeatLimit);
-            result.append(use, 'a' + currentCharIndex);
-            freq[currentCharIndex] -= use;
+            int use = min(freq[currIdx], repeatLimit);
+            res.append(use, 'a' + currIdx);
+            freq[currIdx] -= use;
 
-            if (freq[currentCharIndex] >
-                0) {  // Need to add a smaller character
-                int smallerCharIndex = currentCharIndex - 1;
+            if (freq[currIdx] > 0) {
+                int smallerCharIndex = currIdx - 1;
                 while (smallerCharIndex >= 0 && freq[smallerCharIndex] == 0) {
                     smallerCharIndex--;
                 }
                 if (smallerCharIndex < 0) {
                     break;
                 }
-                result.push_back('a' + smallerCharIndex);
+                res.push_back('a' + smallerCharIndex);
                 freq[smallerCharIndex]--;
             }
         }
 
-        return result;
+        return res;
     }
 };
