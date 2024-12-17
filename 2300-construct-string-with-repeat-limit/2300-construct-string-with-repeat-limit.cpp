@@ -1,7 +1,7 @@
 class Solution {
 public:
     string repeatLimitedString(string s, int repeatLimit) {
-        int freq[26] = {};
+        int freq[26] = {}; // int array
         for (char ch : s) {
             freq[ch - 'a']++;
         }
@@ -25,7 +25,7 @@ public:
 
                 if (smallerCharIndex < 0)
                     break;
-                    
+
                 res.push_back('a' + smallerCharIndex);
                 freq[smallerCharIndex]--;
             }
