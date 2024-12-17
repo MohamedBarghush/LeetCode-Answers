@@ -20,12 +20,12 @@ public:
 
             if (freq[currIdx] > 0) {
                 int smallerCharIndex = currIdx - 1;
-                while (smallerCharIndex >= 0 && freq[smallerCharIndex] == 0) {
+                while (smallerCharIndex >= 0 && freq[smallerCharIndex] == 0)
                     smallerCharIndex--;
-                }
-                if (smallerCharIndex < 0) {
+
+                if (smallerCharIndex < 0)
                     break;
-                }
+                    
                 res.push_back('a' + smallerCharIndex);
                 freq[smallerCharIndex]--;
             }
