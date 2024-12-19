@@ -23,6 +23,7 @@ public:
         return root;
     }
     TreeNode* sortedArrayToBST(vector<int>& nums) {
+        // Build it by dividing and conquering
         return finalArray(nums, 0, nums.size()-1);
     }
 };
