@@ -13,21 +13,24 @@ class Solution {
 public:
     int getMinimumDifference(TreeNode* root) {
         stack<TreeNode*> s;
-        TreeNode* prev;
-        s.push(root);
-        int minVal = 1e5;
-        vector<int> vals;
+        TreeNode* prev = nullptr;
+        TreeNode* curr = root;
+        int minVal = INT_MAX;
 
-        while (!s.empty()) {
-            TreeNode* curr = s.top();
+        while (!s.empty() || curr != nullptr) {
+            while (curr != nullptr) {
+                s.push(curr);
+                curr = curr->left;
+            }
+
+            curr = s.top();
             s.pop();
 
-            if (curr->right) s.push(curr->right);
-            if (curr->left) s.push(curr->left);
-            for (int i = 0; i < vals.size(); i++) {
-                minVal = min(minVal, abs(curr->val - vals[i]));
-            }
-            vals.push_back(curr->val);
+            if (prev != nullptr)
+                minVal = min(minVal, abs(curr->val - prev->val));
+            prev = curr;
+
+            curr = curr->right;
         }
 
         return minVal;
