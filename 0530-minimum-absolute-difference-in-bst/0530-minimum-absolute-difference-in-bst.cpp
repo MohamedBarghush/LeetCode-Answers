@@ -12,17 +12,18 @@
 class Solution {
 public:
     int getMinimumDifference(TreeNode* root) {
-        queue<TreeNode*> q;
-        q.push(root);
+        stack<TreeNode*> s;
+        TreeNode* prev;
+        s.push(root);
         int minVal = 1e5;
         vector<int> vals;
 
-        while (!q.empty()) {
-            TreeNode* curr = q.front();
-            q.pop();
+        while (!s.empty()) {
+            TreeNode* curr = s.top();
+            s.pop();
 
-            if (curr->left) q.push(curr->left);
-            if (curr->right) q.push(curr->right);
+            if (curr->right) s.push(curr->right);
+            if (curr->left) s.push(curr->left);
             for (int i = 0; i < vals.size(); i++) {
                 minVal = min(minVal, abs(curr->val - vals[i]));
             }
