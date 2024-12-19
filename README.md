@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
+| [0191-number-of-1-bits](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0191-number-of-1-bits) |
 ## Sorting
 |  |
 | ------- |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
+| [0191-number-of-1-bits](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 ## Simulation
 |  |
