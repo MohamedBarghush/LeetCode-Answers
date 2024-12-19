@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0128-longest-consecutive-sequence) |
 | [0162-find-peak-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0162-find-peak-element) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
 ## Sorting
 |  |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0112-path-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
@@ -306,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0112-path-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
@@ -331,5 +335,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 <!---LeetCode Topics End-->
