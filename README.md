@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Queue
 |  |
 | ------- |
