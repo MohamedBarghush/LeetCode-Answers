@@ -1,49 +1,43 @@
+typedef long long int ll;
+const int N = 3e4+5;
+
+vector<vector<int>> g(N);
+vector<ll> val(N);
+int result;
+int K;
+
 class Solution {
 public:
-    int maxKDivisibleComponents(int n, vector<vector<int>> &edges,
-                                vector<int> &values, int k) {
-        // Step 1: Create adjacency list from edges
-        vector<int> adjList[n];
-        for (auto edge : edges) {
-            int node1 = edge[0];
-            int node2 = edge[1];
-            adjList[node1].push_back(node2);
-            adjList[node2].push_back(node1);
+
+    int MaxComponents (int src, int par) {
+        ll leftOver = val[src];
+        
+        for (auto i : g[src]) {
+            if (i == par) continue;
+            leftOver += MaxComponents(i, src);
         }
-        // Step 2: Initialize component count
-        int componentCount = 0;
-
-        // Step 3: Start DFS traversal from node 0
-        dfs(0, -1, adjList, values, k, componentCount);
-
-        // Step 4: Return the total number of components
-        return componentCount;
+        if (leftOver % K == 0) {
+            result ++;
+            leftOver = 0;
+        }
+        return leftOver;
     }
 
-private:
-    int dfs(int currentNode, int parentNode, vector<int> adjList[],
-            vector<int> &nodeValues, int k, int &componentCount) {
-        // Step 1: Initialize sum for the current subtree
-        int sum = 0;
-
-        // Step 2: Traverse all neighbors
-        for (auto neighborNode : adjList[currentNode]) {
-            if (neighborNode != parentNode) {
-                // Recursive call to process the subtree rooted at the neighbor
-                sum += dfs(neighborNode, currentNode, adjList, nodeValues, k,
-                           componentCount);
-                sum %= k;  // Ensure the sum stays within bounds
-            }
+    int maxKDivisibleComponents(int n, vector<vector<int>>& edges, vector<int>& values, int k) {
+        result = 0;
+        K = k;
+        for (int j = 0; j < n; j ++) {
+            g[j].clear();
+            val[j] = values[j];
         }
-
-        // Step 3: Add the value of the current node to the sum
-        sum += nodeValues[currentNode];
-
-        // Step 4: Check if the sum is divisible by k
-        sum %= k;
-        if (sum == 0) componentCount++;
-
-        // Step 5: Return the computed sum for the current subtree
-        return sum;
+        for (auto e : edges) {
+            g[e[0]].push_back(e[1]);
+            g[e[1]].push_back(e[0]);
+        }
+        
+        ll leftOver = MaxComponents(0, -1);
+        if (leftOver != 0) result ++;
+        
+        return result;
     }
 };
