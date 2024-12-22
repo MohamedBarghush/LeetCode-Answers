@@ -3,38 +3,35 @@ constexpr int MAX_SZ = 5e4 + 10;
 constexpr int INF = 1e5;
 int tree[MAX_SZ*4];
 
-void build_tree(int v, int tl, int tr, vector<int>& heights) {
-    if (tl == tr) {
-        tree[v] = heights[tl];
+void build_segs_tree(int val, int max_left, int max_right, vector<int>& heights) {
+    if (max_right == max_left) {
+        tree[val] = heights[max_left];
         return;
     }
 
-    int tm = (tl+tr)/2;
+    int max_mid = (max_right+max_left)/2;
 
-    build_tree(v*2+1, tl, tm, heights);
-    build_tree(v*2+2, tm+1, tr, heights);
-    tree[v] = max(tree[v*2+1], tree[v*2+2]);
+    build_segs_tree(val*2+1, max_left, max_mid, heights);
+    build_segs_tree(val*2+2, max_mid+1, max_right, heights);
+    tree[val] = max(tree[val*2+1], tree[val*2+2]);
 }
 
-int leftmost_greater_idx(int v, int tl, int tr, int l, int r, int min_val) {
-    if (tl > r || tr < l) {
+int greater_idx(int val, int max_left, int max_right, int left, int right, int min_val) {
+    if (max_left > right || max_right < left)
         return INF;
-    }
 
-    if (tree[v] < min_val) {
+    if (tree[val] < min_val)
         return INF;
-    }
 
-    if (tl == tr) {
-        return tl;
-    }
+    if (max_left == max_right)
+        return max_left;
 
-    int tm = (tl+tr)/2;
+    int max_mid = max_left + (max_right-max_left)/2;
 
-    int ltree_ans = leftmost_greater_idx(v*2+1, tl, tm, l, r, min_val);
+    int ltree_ans = greater_idx(val*2+1, max_left, max_mid, left, right, min_val);
     if (ltree_ans != INF) return ltree_ans; 
 
-    return leftmost_greater_idx(v*2+2, tm+1, tr, l, r, min_val);
+    return greater_idx(val*2+2, max_mid+1, max_right, left, right, min_val);
 }
 
 class Solution {
@@ -44,14 +41,12 @@ public:
         answers.reserve(queries.size());
         
         int n = heights.size();
-        build_tree(0, 0, n-1, heights);
+        build_segs_tree(0, 0, n-1, heights);
 
-        // auto mapped_heigts = map_heights(heights);
         for (auto& query : queries) {
             int a = query[0], b = query[1];
-            if (a > b) {
+            if (a > b)
                 swap(a, b);
-            }
 
             if (a == b) {
                 answers.push_back(a);
@@ -63,16 +58,10 @@ public:
                 ++min_height;
             }
 
-            int answer = leftmost_greater_idx(
-                0, 
-                0, n-1, 
-                b, n-1, 
-                min_height
-            );
+            int answer = greater_idx(0, 0, n-1, b, n-1, min_height);
 
-            if (answer == INF) {
+            if (answer == INF)
                 answer = -1;
-            }
 
             answers.push_back(answer);
         }
