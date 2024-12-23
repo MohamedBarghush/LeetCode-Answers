@@ -11,51 +11,59 @@
  */
 class Solution {
 public:
-    int minimumOperations(TreeNode* root) {
-        queue<TreeNode*> q;
-        q.push(root);
-
-        int res = 0;
-
-        while (!q.empty()) {
-            int size = q.size();
-            vector<int> levelValues(size);
-
-            for (int i = 0; i < size; i++) {
-                TreeNode* node = q.front();
-                q.pop();
-                levelValues[i] = node->val;
-
-                if (node->left != nullptr) q.push(node->left);
-                if (node->right != nullptr) q.push(node->right);
+    int minSwaps(vector<int>& arr) {
+        
+        vector<pair<int,int>>v;
+        for(int i=0; i<arr.size(); i++)
+            v.push_back({arr[i],i}); // {value,index}
+        
+        sort(v.begin(), v.end());
+        int swaps = 0;
+        
+        for(int i=0; i<arr.size(); i++){
+            
+            pair<int,int>p = v[i];
+            int index = p.second;
+            
+            while(i != index){
+                
+                swaps++;
+                swap(v[i], v[index]);
+                index = v[i].second;
+                
             }
-
-            res += getMinSwaps(levelValues);
         }
-
-        return res;
+        
+        return swaps;
     }
 
-private:
-    int getMinSwaps(vector<int>& original) {
-        int swaps = 0;
-        vector<int> target = original;
-        sort(target.begin(), target.end());
 
-        unordered_map<int, int> pos;
-        for (int i = 0; i < original.size(); i++)
-            pos[original[i]] = i;
+    int minimumOperations(TreeNode* root) {
+        
+        queue<TreeNode*>qu;
+        qu.push(root);
 
-        for (int i = 0; i < original.size(); i++) {
-            if (original[i] != target[i]) {
-                swaps++;
+        int ans = 0;
+        vector<int>levelOrder;
 
-                int curPos = pos[target[i]];
-                pos[original[i]] = curPos;
-                swap(original[curPos], original[i]);
+        while(!qu.empty()){
+
+            levelOrder.clear();
+            int n = qu.size();
+            for(int i=0; i<n; i++){
+
+                TreeNode* temp = qu.front();
+                qu.pop();
+                levelOrder.push_back(temp->val);
+
+                if(temp->left) qu.push(temp->left);
+                if(temp->right) qu.push(temp->right);
             }
+
+            int minimumSwaps = minSwaps(levelOrder);
+            ans += minimumSwaps;
         }
 
-        return swaps;
+        return ans;
     }
 };
