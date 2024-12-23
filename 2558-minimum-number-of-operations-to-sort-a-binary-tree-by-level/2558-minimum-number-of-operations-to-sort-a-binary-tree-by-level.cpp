@@ -12,7 +12,6 @@
 class Solution {
 public:
     int minSwaps(vector<int>& arr) {
-        
         vector<pair<int,int>>v;
         for(int i=0; i<arr.size(); i++)
             v.push_back({arr[i],i}); // {value,index}
@@ -26,11 +25,9 @@ public:
             int index = p.second;
             
             while(i != index){
-                
                 swaps++;
                 swap(v[i], v[index]);
                 index = v[i].second;
-                
             }
         }
         
