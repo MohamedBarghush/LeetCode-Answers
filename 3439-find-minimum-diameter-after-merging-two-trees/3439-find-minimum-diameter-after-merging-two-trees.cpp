@@ -43,7 +43,6 @@ public:
         int dia1 = 0, dia2 = 0;
         diameter(0, -1, graph1, dia1);
         diameter(0, -1, graph2, dia2);
-        // cout<<dia1<<" "<<dia2<<endl;
 
         int ans = max({dia1, dia2, (dia1 / 2) + (dia1 % 2) + (dia2 / 2) + (dia2 % 2) + 1});
 
