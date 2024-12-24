@@ -1,7 +1,6 @@
 class Solution {
 public:
     int diameter(int root, int parent, vector<vector<int>> &graph, int &ans){
-
         int mx1 = -1, mx2 = -1;
         for(auto &child: graph[root]){
             if(child != parent){
