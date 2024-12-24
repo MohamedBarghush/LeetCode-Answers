@@ -46,6 +46,5 @@ public:
         int ans = max({dia1, dia2, (dia1 / 2) + (dia1 % 2) + (dia2 / 2) + (dia2 % 2) + 1});
 
         return ans;
-
     }
 };
