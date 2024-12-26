@@ -1,7 +1,7 @@
 class Solution {
 public:
     int f(int i, int n, int target, vector<int>& arr, vector<vector<int>>& dp) {
-        if (i == 0) {
+        if (i == 0) { // all base
             if (target == 0 && arr[0] == 0)
                 return 2;
             if (abs(target - arr[i]) == 0)
