@@ -1,7 +1,7 @@
 class Solution {
 public:
     int dp(vector<int>& nums, int target, vector<vector<int>>& memo, int index, int currSum, int offset) {
-        if (index == nums.size()) return (currSum == target ? 1 : 0); // base case b****
+        if (index == nums.size()) return (currSum == target ? 1 : 0); // base fkin case b****
 
         if (memo[index][currSum + offset] != -1)
             return memo[index][currSum + offset];
