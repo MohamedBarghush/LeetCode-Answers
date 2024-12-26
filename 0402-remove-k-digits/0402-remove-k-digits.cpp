@@ -1,27 +1,34 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        vector<char> monoShit;
+        stack<char> monoShit;
 
         for (int i = 0; i < num.length(); i++) {
-            while (!monoShit.empty() && num[i] < monoShit.back() && k > 0) {
-                monoShit.pop_back();
+            while (!monoShit.empty() && num[i] < monoShit.top() && k > 0) {
+                monoShit.pop();
                 k--;
             }
-            monoShit.push_back(num[i]);
+            monoShit.push(num[i]);
         }
 
         while (k > 0 && !monoShit.empty()) {
-            monoShit.pop_back();
+            monoShit.pop();
             k--;
         }
         
-        string res(monoShit.begin(), monoShit.end());
+        string res = "";
+        while (!monoShit.empty()) {
+            res.push_back(monoShit.top());
+            monoShit.pop();
+        }
 
-        int lastZero = 0;
-        while (lastZero < res.size() && res[lastZero] == '0')
-            lastZero++;
-        res = res.substr(lastZero);
+        for (int i = res.length()-1; i >= 0; i--) {
+            if (res[i] != '0')
+                break;
+            res.pop_back();
+        }
+            
+        reverse(res.begin(), res.end());
 
         return res.empty() ? "0" : res;
     }
