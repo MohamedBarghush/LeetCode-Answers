@@ -1,6 +1,9 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
+        if(k==num.size())
+            return "0";
+            
         stack<char> monoShit;
 
         for (int i = 0; i < num.length(); i++) {
