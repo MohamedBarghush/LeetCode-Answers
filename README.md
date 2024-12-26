@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0228-summary-ranges](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0228-summary-ranges) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0494-target-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
+| [0494-target-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0494-target-sum) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
 | [3140-count-visited-nodes-in-a-directed-graph](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3140-count-visited-nodes-in-a-directed-graph) |
 ## Hash Table
@@ -377,4 +379,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
