@@ -1,23 +1,34 @@
 class Solution {
 public:
-    int dp(vector<int>& nums, int target, vector<vector<int>>& memo, int index, int currSum, int offset) {
-        if (index == nums.size()) return (currSum == target ? 1 : 0); // base fkin case b****
-
-        if (memo[index][currSum + offset] != -1)
-            return memo[index][currSum + offset];
-
-        int pos = dp(nums, target, memo, index + 1, currSum + nums[index], offset);
-        int neg = dp(nums, target, memo, index + 1, currSum - nums[index], offset);
-
-        memo[index][currSum + offset] = pos + neg;
-
-        return memo[index][currSum + offset];
+    int f(int i, int n, int target, vector<int>& arr, vector<vector<int>>& dp) {
+        if (i == 0) {
+            if (target == 0 && arr[0] == 0)
+                return 2;
+            if (abs(target - arr[i]) == 0)
+                return 1;
+            if (target == 0)
+                return 1;
+            return 0;
+        }
+        if (dp[i][target] != -1)
+            return dp[i][target];
+        int take = 0;
+        if (target >= arr[i])
+            take = f(i - 1, n, target - arr[i], arr, dp);
+        int notTake = f(i - 1, n, target, arr, dp);
+        return dp[i][target] = take + notTake;
     }
-
-    int findTargetSumWays(vector<int>& nums, int target) {
-        int sum = accumulate(nums.begin(), nums.end(), 0);
-        int offset = sum;
-        vector<vector<int>> memo(nums.size(), vector<int>(2 * sum + 1, -1));
-        return dp(nums, target, memo, 0, 0, offset);
+    int findTargetSumWays(vector<int>& arr,int target) {
+        int n=arr.size();
+        int sum = 0;
+        for (int i = 0; i < n; i++)
+            sum += arr[i];
+        if (target > sum)
+            return 0;
+        if ((sum - target) % 2 != 0)
+            return 0;
+        int s = (sum - target) / 2;
+        vector<vector<int>> dp(n, vector<int>(s + 1, -1));
+        return f(n - 1, n, s, arr, dp);
     }
 };
