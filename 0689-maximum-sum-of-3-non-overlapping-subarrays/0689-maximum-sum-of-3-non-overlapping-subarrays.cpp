@@ -1,52 +1,51 @@
 class Solution {
+    vector<int> prefix_sum;
+    int max_sum;
+    int mem[20001][3];
+    vector<int> max_sum_path;
+
+    int findMaxSum(vector<int>& nums,int pos,int count,int& k){
+        if(count==3)              return 0;
+        if(pos>nums.size()-k)     return 0;
+        if(mem[pos][count]!=-1)   return mem[pos][count];
+        
+        int dont_start = findMaxSum(nums,pos+1,count,k);
+
+        int start_here = findMaxSum(nums,pos+k,count+1,k)
+                         + prefix_sum[pos+k]-prefix_sum[pos];
+
+        return mem[pos][count] = max(dont_start,start_here);
+    }
+    void findMaxSumPath(vector<int>& nums,int pos,int count,int& k,vector<int>& path){
+        if(count==3)             return;
+        if(pos>nums.size()-k)    return;
+
+        int dont_start = findMaxSum(nums,pos+1,count,k);
+
+        int start_here = findMaxSum(nums,pos+k,count+1,k)
+                         + prefix_sum[pos+k]-prefix_sum[pos];
+        
+        if(start_here >= dont_start){
+            path.push_back(pos);
+            findMaxSumPath(nums,pos+k,count+1,k,path);
+        }else{
+            findMaxSumPath(nums,pos+1,count,k,path);
+        }
+    }
 public:
-    int dp[100000][4];
-    int F(int idx, vector<int>& K_Size_windowSum, int k, int left) {
-        if (idx >= K_Size_windowSum.size()) {
-            return (left == 0) ? 0 : INT_MIN;
-        }
-        if (left < 0) {
-            return INT_MIN;
-        }
-        if (dp[idx][left] != -1) {
-            return dp[idx][left];
-        }
-        int take_ith_index = K_Size_windowSum[idx] + F(idx + k, K_Size_windowSum, k, left - 1);
-        int not_take_ith_index = F(idx + 1, K_Size_windowSum, k, left);
-        return dp[idx][left] = max(take_ith_index, not_take_ith_index);
-    }
-    void recover(vector<int>& K_Size_windowSum, int k, int idx, int t, vector<int>& res){
-        if (idx >= K_Size_windowSum.size() || t == 0) {
-            return;
-        }
-        int take_ith_index = K_Size_windowSum[idx] + F(idx+k , K_Size_windowSum , k , t-1); 
-        int not_take_ith_index = F(idx+1 , K_Size_windowSum , k , t); 
-        if (take_ith_index >= not_take_ith_index) {
-            res.push_back(idx);  
-            recover(K_Size_windowSum, k, idx + k, t - 1, res); 
-        } else {
-            recover(K_Size_windowSum, k, idx + 1, t, res);
-        }
-    }
-    vector<int> maxSumOfThreeSubarrays(vector<int>& A, int k) {
-        memset(dp,-1,sizeof(dp));
-        int n = A.size();
-        vector<int> P(n, 0);
-        P[0] = A[0];
-        for (int i = 1; i < A.size(); i++) {
-            P[i] = P[i - 1] + A[i];
-        }
-        vector<int> K_Size_windowSum(n - k + 1);
-        for (int i = 0; i <= n - k; i++) {
-            if (i == 0) {
-                K_Size_windowSum[0] = P[k - 1];
-            } else {
-                K_Size_windowSum[i] = P[i + k - 1] - P[i - 1];
-            }
-        }
-        vector<int> result;
-        F(0, K_Size_windowSum, k, 3); 
-        recover(K_Size_windowSum, k, 0, 3, result);
-        return result;
+    vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k) {
+        int n = nums.size();
+        memset(mem,-1,sizeof(mem));
+
+        prefix_sum = vector<int>(n+1,0);
+        for(int i=0;i<n;++i)
+            prefix_sum[i+1] = prefix_sum[i]+nums[i];
+
+        max_sum = findMaxSum(nums,0,0,k);
+
+        vector<int> path;
+        findMaxSumPath(nums,0,0,k,path);
+        
+        return path;
     }
 };
