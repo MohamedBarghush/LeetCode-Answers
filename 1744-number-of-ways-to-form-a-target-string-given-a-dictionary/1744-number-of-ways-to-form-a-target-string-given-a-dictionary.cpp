@@ -1,41 +1,29 @@
 class Solution {
 public:
-    int numWays(vector<string>& words, string target) {
-        vector<vector<int>> dp(words[0].size(), vector<int>(target.size(), -1));
-        vector<vector<int>> charFrequency(words[0].size(), vector<int>(26, 0));
+    int numWays(const vector<string>& words, const string& target) {
+        const int wl = words[0].size();
+        const int tl = target.size();
+        if (tl > wl) return 0;
+        vector<array<int, 26>> char_cnt(wl, array<int, 26>{});
+        for (const string& w : words)
+            for (int k = 0; k < wl; ++k)
+                ++char_cnt[k][w[k] - 'a'];
 
-        // Store the frequency of every character at every index.
-        for (int i = 0; i < words.size(); i++) {
-            for (int j = 0; j < words[0].size(); j++) {
-                int character = words[i][j] - 'a';
-                charFrequency[j][character]++;
+        constexpr int mod = 1000000007;
+        vector<int> dp, new_dp;
+        dp.reserve(wl - tl + 1);
+        new_dp.reserve(wl - tl + 1);
+        dp.emplace_back(char_cnt[0][target[0] - 'a']);
+        for (int k = 1; k < wl; ++k) {
+            const int start_i = max(0, (k - 1) + tl - wl);
+            for (int i = max(0, k + tl - wl); i <= k && i < tl; ++i) {
+                uint64_t cnt = (uint64_t) (i > 0 ? dp[(i - 1) - start_i] : 1) * char_cnt[k][target[i] - 'a'];
+                if (i < k) cnt += dp[i - start_i];
+                new_dp.emplace_back(cnt % mod);
             }
+            std::swap(dp, new_dp);
+            new_dp.clear();
         }
-        return getWords(words, target, 0, 0, dp, charFrequency);
-    }
-
-private:
-    long getWords(vector<string>& words, string& target, int wordsIndex,
-                  int targetIndex, vector<vector<int>>& dp,
-                  vector<vector<int>>& charFrequency) {
-        if (targetIndex == target.size()) return 1;
-        if (wordsIndex == words[0].size() ||
-            words[0].size() - wordsIndex < target.size() - targetIndex)
-            return 0;
-
-        if (dp[wordsIndex][targetIndex] != -1)
-            return dp[wordsIndex][targetIndex];
-
-        long countWays = 0;
-        int curPos = target[targetIndex] - 'a';
-        // Don't match any character of target with any word.
-        countWays += getWords(words, target, wordsIndex + 1, targetIndex, dp,
-                              charFrequency);
-        // Multiply the number of choices with getWords and add it to count.
-        countWays += charFrequency[wordsIndex][curPos] *
-                     getWords(words, target, wordsIndex + 1, targetIndex + 1,
-                              dp, charFrequency);
-
-        return dp[wordsIndex][targetIndex] = countWays % 1000000007;
+        return (int) (dp.back() % mod);
     }
 };
