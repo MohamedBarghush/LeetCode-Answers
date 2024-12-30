@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1063-best-sightseeing-pair](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1063-best-sightseeing-pair) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
+| [2562-count-ways-to-build-good-strings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2562-count-ways-to-build-good-strings) |
 | [3140-count-visited-nodes-in-a-directed-graph](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3140-count-visited-nodes-in-a-directed-graph) |
 ## Hash Table
 |  |
