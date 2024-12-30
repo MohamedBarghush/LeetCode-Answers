@@ -1,23 +1,21 @@
 class Solution {
 public:
     int countGoodStrings(int low, int high, int zero, int one) {
-        int sum[100001]; // full size
-        sum[0] = 1;
-        for (int i = 1; i <= high; i++)
-        {
-            long long sumCur = 0;
+        const int MOD = 1e9 + 7;
+        vector<int> dp(high + 1, 0);
+        dp[0] = 1;
+
+        for (int i = 1; i <= high; ++i) {
             if (i >= zero)
-                sumCur += sum[i-zero];
+                dp[i] = (dp[i] + dp[i - zero]) % MOD;
             if (i >= one)
-                sumCur += sum[i-one];
-            if (sumCur > 0x3000000000000000ll)
-                sumCur %= 1000000007;
-            sum[i] = sumCur % 1000000007;
+                dp[i] = (dp[i] + dp[i - one]) % MOD;
         }
 
-        long long sumTotal = 0;
-        for (int i = low; i <= high; i++)
-            sumTotal += sum[i];
-        return sumTotal % 1000000007;
+        int result = 0;
+        for (int i = low; i <= high; ++i)
+            result = (result + dp[i]) % MOD;
+        
+        return result;
     }
 };
