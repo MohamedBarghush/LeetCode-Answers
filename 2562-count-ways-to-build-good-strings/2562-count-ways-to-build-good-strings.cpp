@@ -1,7 +1,7 @@
 class Solution {
 public:
     int countGoodStrings(int low, int high, int zero, int one) {
-        const int MOD = 1e9 + 7;
+        const int MOD = 1e9 + 7; // mod
         vector<int> dp(high + 1, 0);
         dp[0] = 1;
 
