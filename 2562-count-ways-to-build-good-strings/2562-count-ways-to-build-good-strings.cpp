@@ -1,7 +1,7 @@
 class Solution {
 public:
     int countGoodStrings(int low, int high, int zero, int one) {
-        int sum[100001];
+        int sum[100001]; // full size
         sum[0] = 1;
         for (int i = 1; i <= high; i++)
         {
