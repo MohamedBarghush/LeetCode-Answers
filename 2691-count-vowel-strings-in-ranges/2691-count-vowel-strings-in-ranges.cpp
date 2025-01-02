@@ -11,6 +11,7 @@ public:
         for (int i = 0; i < queries.size(); i++)
             ans[i] = prefix[queries[i][1]] - (queries[i][0] > 0 ? prefix[queries[i][0]-1] : 0);
 
+        
         return ans;
     }
 };
