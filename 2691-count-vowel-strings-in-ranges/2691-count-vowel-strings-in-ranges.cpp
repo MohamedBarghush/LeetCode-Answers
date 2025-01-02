@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
-        unordered_set<char> vowels{'a', 'e', 'i', 'o', 'u'}; // all vowels
+        unordered_set<char> vowels{'a', 'e', 'i', 'o', 'u'};
         vector<int> prefix (words.size(), 0);
         if (vowels.count(words[0][0]) > 0 && vowels.count(words[0].back()) > 0) prefix[0] = 1; else prefix[0] = 0;
         for (int i = 1; i < words.size(); i++) {
