@@ -3,7 +3,7 @@ public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
         unordered_set<char> vowels{'a', 'e', 'i', 'o', 'u'}; // all my vowels
         vector<int> prefix (words.size(), 0);
-        if (vowels.count(words[0][0]) > 0 && vowels.count(words[0].back()) > 0) prefix[0] = 1; else prefix[0] = 0;
+        if (vowels.count(words[0][0]) > 0 && vowels.count(words[0].back()) > 0) prefix[0] = 1;
         for (int i = 1; i < words.size(); i++) {
             if (vowels.count(words[i][0]) > 0 && vowels.count(words[i].back()) > 0)
                 prefix[i] = 1;
