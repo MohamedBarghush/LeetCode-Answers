@@ -1,8 +1,8 @@
 class Solution {
 public:
     int countPalindromicSubsequence(string s) {
-        vector<int> f(26, -1);
-        vector<int> l(26, -1);
+        vector<int> f(26, -1); // first indices
+        vector<int> l(26, -1); // last indices
 
         for (int i = 0; i < s.length(); i++) {
             int curr = s[i] - 'a';
