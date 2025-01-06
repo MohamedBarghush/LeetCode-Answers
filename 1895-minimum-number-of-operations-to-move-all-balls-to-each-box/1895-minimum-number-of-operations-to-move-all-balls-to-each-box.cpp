@@ -12,6 +12,7 @@ public:
             b_l += boxes[i] - '0';
             m_l += b_l;
 
+
             int j = n - 1 - i;
             ans[j] += m_r;
             b_r += boxes[j] - '0';
