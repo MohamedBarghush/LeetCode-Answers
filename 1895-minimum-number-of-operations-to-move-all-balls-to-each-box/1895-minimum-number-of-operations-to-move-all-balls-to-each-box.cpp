@@ -3,19 +3,23 @@ public:
     vector<int> minOperations(string boxes) {
         int n = boxes.size();
         vector<int> ans(n, 0);
-
-        int balls_L = 0, moves_L = 0;
-        int balls_R = 0, moves_R = 0;
+        
+        int balls = 0;
+        int moves = 0;
 
         for (int i = 0; i < n; i++) {
-            ans[i] += moves_L;
-            balls_L += boxes[i] - '0';
-            moves_L += balls_L;
+            ans[i] = moves;
+            balls += boxes[i] - '0';
+            moves += balls;
+        }
 
-            int j = n - 1 - i;
-            ans[j] += moves_R;
-            balls_R += boxes[j] - '0';
-            moves_R += balls_R;
+        balls = 0;
+        moves = 0;
+
+        for (int i = n-1; i >= 0; i--) {
+            ans[i] += moves;
+            balls += boxes[i] - '0';
+            moves += balls;
         }
 
         return ans;
