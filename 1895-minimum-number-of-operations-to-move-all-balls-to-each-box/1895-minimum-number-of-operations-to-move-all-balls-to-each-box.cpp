@@ -4,19 +4,20 @@ public:
         int n = boxes.size();
         vector<int> ans(n, 0);
         
-        int b_l = 0, b_r = 0;
-        int m_l = 0, m_r = 0;
+        int balls = (boxes[0] == '1' ? 1 : 0);
 
-        for (int i = 0; i < n; i++) {
-            ans[i] += m_l;
-            b_l += boxes[i] - '0';
-            m_l += b_l;
+        for (int i = 1; i < n; i++) {
+            ans[i] = ans[i-1] + balls;
+            balls += boxes[i] - '0';
+        }
 
+        balls = 0;
+        int moves = 0;
 
-            int j = n - 1 - i;
-            ans[j] += m_r;
-            b_r += boxes[j] - '0';
-            m_r += b_r;
+        for (int i = n-1; i >= 0; i--) {
+            ans[i] += moves;
+            balls += boxes[i] - '0';
+            moves += balls;
         }
 
         return ans;
