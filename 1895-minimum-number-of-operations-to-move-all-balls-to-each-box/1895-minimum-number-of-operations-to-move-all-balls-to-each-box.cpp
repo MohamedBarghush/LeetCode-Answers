@@ -8,7 +8,6 @@ public:
             ans[i] = ans[i-1] + balls;
             balls += boxes[i] - '0';
         }
-
         for (int i = n-1, balls = 0, moves = 0; i >= 0; i--) {
             ans[i] += moves;
             balls += boxes[i] - '0';
