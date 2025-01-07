@@ -2,9 +2,9 @@ class Solution {
 public:
     vector<string> stringMatching(vector<string>& words) {
         int n = words.size();
-        // sort(words.begin(), words.end(), [](const string &a, const string &b) {
-        //     return a.length() < b.length();
-        // });
+        sort(words.begin(), words.end(), [](const string &a, const string &b) {
+            return a.length() < b.length();
+        });
 
         vector<string> ans;
 
