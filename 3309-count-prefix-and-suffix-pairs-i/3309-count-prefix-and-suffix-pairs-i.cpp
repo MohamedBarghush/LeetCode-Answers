@@ -2,7 +2,8 @@ class Solution {
 public:
     bool isPrefixAndSuffix (string str1, string str2) {
         for (int i = 0; i < str1.length(); i++)
-            if (str1[i] != str2[i] || str1[str1.length()-1-i] != str2[str2.length()-1-i]) return false;
+            if (str1[i] != str2[i] || str1[str1.length()-1-i] != str2[str2.length()-1-i]) 
+            return false;
         return true;
     }
 
