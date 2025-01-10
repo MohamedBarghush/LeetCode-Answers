@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
-        vector<int> frequencies(26, 0);
+        int frequencies[26] = {};
         int count = 0;
         vector<string> ans;
         for (int i = 0; i < words2.size(); i++) {
@@ -16,7 +16,7 @@ public:
             count += c;
 
         for (int i = 0; i < words1.size(); i++) {
-            vector<int> temp(26, 0);
+            int temp[26] = {};
             int tempC = count;
             for (int j = 0; j < words1[i].length(); j++) {
                 int c = words1[i][j] - 'a';
