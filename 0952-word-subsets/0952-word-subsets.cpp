@@ -24,6 +24,7 @@ public:
                     temp[c]++;
                     tempC--;
                 }
+                if (tempC == 0) break;
             }
             if (tempC == 0)
                 ans.push_back(words1[i]);
