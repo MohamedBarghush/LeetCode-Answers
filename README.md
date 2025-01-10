@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0780-max-chunks-to-make-sorted) |
+| [0952-word-subsets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0952-word-subsets) |
 | [1025-minimum-cost-for-tickets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1063-best-sightseeing-pair) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
+| [0952-word-subsets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0952-word-subsets) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2240-intervals-between-identical-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2240-intervals-between-identical-elements) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0402-remove-k-digits) |
+| [0952-word-subsets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
