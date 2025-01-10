@@ -12,19 +12,19 @@ public:
                 frequencies[idx] = max(frequencies[idx], temp[idx]);
             }
         }
+        for (char c : frequencies)
+            count += c;
 
         for (int i = 0; i < words1.size(); i++) {
             vector<int> temp = frequencies;
+            int tempC = count;
             for (int j = 0; j < words1[i].length(); j++) {
                 if (temp[words1[i][j] - 'a'] > 0) {
                     temp[words1[i][j] - 'a']--;
+                    tempC--;
                 }
             }
-            bool flag = true;
-            for (int j = 0; j < 26; j++) {
-                if (temp[j] > 0) { flag = false; break; }
-            }
-            if (flag) {
+            if (tempC == 0) {
                 ans.push_back(words1[i]);
             }
         }
