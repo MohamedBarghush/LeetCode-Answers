@@ -5,7 +5,7 @@ public:
         int count = 0;
         vector<string> ans;
         for (int i = 0; i < words2.size(); i++) {
-            vector<int> temp(26,0);
+            int temp[26] = {};
             for (int j = 0; j < words2[i].length(); j++) {
                 int idx = words2[i][j] - 'a';
                 temp[idx]++;
