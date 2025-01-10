@@ -16,17 +16,17 @@ public:
             count += c;
 
         for (int i = 0; i < words1.size(); i++) {
-            vector<int> temp = frequencies;
+            vector<int> temp(26, 0);
             int tempC = count;
             for (int j = 0; j < words1[i].length(); j++) {
-                if (temp[words1[i][j] - 'a'] > 0) {
-                    temp[words1[i][j] - 'a']--;
+                int c = words1[i][j] - 'a';
+                if (temp[c] < frequencies[c]) {
+                    temp[c]++;
                     tempC--;
                 }
             }
-            if (tempC == 0) {
+            if (tempC == 0)
                 ans.push_back(words1[i]);
-            }
         }
         return ans;
     }
