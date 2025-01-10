@@ -18,7 +18,8 @@ public:
         for (int i = 0; i < words1.size(); i++) {
             int temp[26] = {};
             int tempC = count;
-            for (int j = 0; j < words1[i].length(); j++) {
+            int len = words1[i].length();
+            for (int j = 0; j < len; j++) {
                 int c = words1[i][j] - 'a';
                 if (temp[c] < frequencies[c]) {
                     temp[c]++;
