@@ -4,7 +4,7 @@ public:
         int unlocked_bitch = 0, unlocked_whore = 0; 
         int open = 0, close = 0;
         int n = s.length();
-        if(n % 2 == 1) return false; // never gonna work
+        if(n % 2 == 1) return false;
 
         for(int i = 0; i<n; i++) {
             if(locked[i] == '0') unlocked_bitch++;
