@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minimumLength(string s) {
-        int chars[26] = {};
+        int chars[26] = {}; // my arr
         int n = s.length();
         int count = 0;
         for (int i = 0; i < n; i++)
