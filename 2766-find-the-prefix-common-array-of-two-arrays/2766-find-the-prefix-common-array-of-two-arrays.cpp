@@ -4,13 +4,12 @@ public:
         int n = A.size();
         vector<int> freq(51, 0);
         vector<int> ans(n, 0);
+        int count = 0;
         for (int i = 0; i < n; i++) {
             freq[A[i]]++;
+            if (freq[A[i]] == 2) count++;
             freq[B[i]]++;
-            int count = 0;
-            for (int j = 0; j < 51; j++) {
-                if (freq[j] == 2) count++;
-            }
+            if (freq[B[i]] == 2) count++;
             ans[i] = count;
         }
 
