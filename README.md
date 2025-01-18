@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1063-best-sightseeing-pair) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1524-string-matching-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [3140-count-visited-nodes-in-a-directed-graph](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3140-count-visited-nodes-in-a-directed-graph) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Memoization
@@ -321,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -337,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
 | [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
@@ -387,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -457,4 +462,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Shortest Path
+|  |
+| ------- |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 <!---LeetCode Topics End-->
