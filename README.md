@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0228-summary-ranges) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0407-trapping-rain-water-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0407-trapping-rain-water-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0494-target-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
+| [0407-trapping-rain-water-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Prefix Sum
 |  |
@@ -340,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0407-trapping-rain-water-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0226-invert-binary-tree) |
+| [0407-trapping-rain-water-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
