@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool dfs(vector<vector<int>>& graph, int* state, int currentIdx) {
+    bool dfs(vector<vector<int>>& graph, vector<int>& state, int currentIdx) {
         if (state[currentIdx] == 1) return false;
         else if (state[currentIdx] == 2) return true;
 
@@ -16,7 +16,7 @@ public:
 
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n = graph.size();
-        int* state = new int[n]{0};
+        vector<int> state(n, 0);
         vector<int> ans;
         
         for (int i = 0; i < n; i++)
