@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0952-word-subsets) |
 | [1025-minimum-cost-for-tickets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1063-best-sightseeing-pair) |
+| [1396-count-servers-that-communicate](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1396-count-servers-that-communicate) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1524-string-matching-in-an-array) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
+| [1396-count-servers-that-communicate](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1502-construct-k-palindrome-strings) |
 | [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0128-longest-consecutive-sequence) |
+| [1396-count-servers-that-communicate](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1396-count-servers-that-communicate) |
 ## Greedy
 |  |
 | ------- |
@@ -330,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0407-trapping-rain-water-ii) |
+| [1396-count-servers-that-communicate](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2145-grid-game) |
@@ -390,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0820-find-eventual-safe-states](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0820-find-eventual-safe-states) |
+| [1396-count-servers-that-communicate](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1396-count-servers-that-communicate) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -406,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0820-find-eventual-safe-states](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0820-find-eventual-safe-states) |
+| [1396-count-servers-that-communicate](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1876-map-of-highest-peak) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
