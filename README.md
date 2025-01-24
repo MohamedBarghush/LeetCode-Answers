@@ -311,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0820-find-eventual-safe-states](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [3140-count-visited-nodes-in-a-directed-graph](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3140-count-visited-nodes-in-a-directed-graph) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0820-find-eventual-safe-states](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0820-find-eventual-safe-states) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -403,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0820-find-eventual-safe-states](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1876-map-of-highest-peak) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -479,4 +482,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
