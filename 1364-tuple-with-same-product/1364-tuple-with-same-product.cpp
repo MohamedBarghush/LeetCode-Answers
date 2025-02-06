@@ -12,7 +12,7 @@ public:
         for (auto& [_, key] : daMap) {
             int count = key;
             if (count > 1) {
-                ans += 8 * (count * (count - 1) / 2);
+                ans += 4 * (count * (count - 1));
             }
         }
 
