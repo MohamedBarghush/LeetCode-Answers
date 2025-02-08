@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2240-intervals-between-identical-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2240-intervals-between-identical-elements) |
 | [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
+| [2434-design-a-number-container-system](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2434-design-a-number-container-system) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2685-first-completely-painted-row-or-column](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2685-first-completely-painted-row-or-column) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0155-min-stack) |
+| [2434-design-a-number-container-system](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2434-design-a-number-container-system) |
 ## Matrix
 |  |
 | ------- |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2164-two-best-non-overlapping-events) |
 | [2300-construct-string-with-repeat-limit](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2300-construct-string-with-repeat-limit) |
+| [2434-design-a-number-container-system](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2434-design-a-number-container-system) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2868-continuous-subarrays) |
@@ -476,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [2434-design-a-number-container-system](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
