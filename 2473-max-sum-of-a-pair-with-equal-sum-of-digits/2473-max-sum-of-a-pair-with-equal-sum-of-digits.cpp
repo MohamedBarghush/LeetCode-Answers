@@ -9,7 +9,6 @@ public:
         return sum;
     }
     int maximumSum(vector<int>& nums) {
-        // unordered_map<int, int> num_map;
         vector<int> num_map(82, 0);
         int max_sum = -1;
 
