@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1396-count-servers-that-communicate) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1477-product-of-the-last-k-numbers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1524-string-matching-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
+| [1477-product-of-the-last-k-numbers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1477-product-of-the-last-k-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2448-count-number-of-bad-pairs) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Recursion
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0155-min-stack) |
+| [1477-product-of-the-last-k-numbers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2434-design-a-number-container-system) |
 ## Matrix
 |  |
@@ -386,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0209-minimum-size-subarray-sum) |
+| [1477-product-of-the-last-k-numbers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -552,4 +556,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+## Data Stream
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1477-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
