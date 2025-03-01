@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 | [0494-target-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0494-target-sum) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1477-product-of-the-last-k-numbers) |
@@ -396,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0070-climbing-stairs) |
 | [3140-count-visited-nodes-in-a-directed-graph](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3140-count-visited-nodes-in-a-directed-graph) |
 ## Design
 |  |
