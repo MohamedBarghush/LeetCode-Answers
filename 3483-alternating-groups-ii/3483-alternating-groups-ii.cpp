@@ -8,17 +8,14 @@ public:
         while (p1 < n) {
             int val = p2 % n;
             if (colors[val] != colors[(val+1) % n]) {
-                if (p2 - p1 < k - 1) {
-                    p2++;
-                } else {
+                if (p2 - p1 >= k - 1) {
                     p1++;
-                    p2++;
                     ans++;
                 }
             } else {
                 p1 = p2;
-                p2++;
             }
+            p2++;
         }
 
         return ans;
