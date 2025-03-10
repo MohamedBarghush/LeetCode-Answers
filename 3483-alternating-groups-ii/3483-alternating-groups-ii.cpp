@@ -4,10 +4,8 @@ public:
         int n = colors.size();
         int ans = 0, p1 = 0, p2 = 1;
 
-        // bit optimized
         while (p1 < n) {
-            int val = p2 % n;
-            if (colors[val] != colors[(val+1) % n]) {
+            if (colors[p2 % n] != colors[(p2+1) % n]) {
                 if (p2 - p1 >= k - 1) {
                     p1++;
                     ans++;
