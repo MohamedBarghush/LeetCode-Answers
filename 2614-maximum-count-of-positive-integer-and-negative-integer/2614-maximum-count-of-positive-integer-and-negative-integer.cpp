@@ -4,11 +4,10 @@ public:
         int n = nums.size();
         int positiveCount = 0, negativeCount = 0;
         for (int i = 0; i < n; i++) {
-            if (nums[i] < 0) {
+            if (nums[i] < 0)
                 negativeCount++;
-            } else if (nums[i] > 0) {
+            else if (nums[i] > 0)
                 positiveCount++;
-            }
         }
 
         return max(negativeCount, positiveCount);
