@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2448-count-number-of-bad-pairs) |
 | [2465-shifting-letters-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2465-shifting-letters-ii) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2478-longest-nice-subarray](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2478-longest-nice-subarray) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -339,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0222-count-complete-tree-nodes) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
+| [2478-longest-nice-subarray](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2478-longest-nice-subarray) |
 | [2509-minimize-xor](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -391,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0219-contains-duplicate-ii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2478-longest-nice-subarray](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2478-longest-nice-subarray) |
 | [2868-continuous-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
