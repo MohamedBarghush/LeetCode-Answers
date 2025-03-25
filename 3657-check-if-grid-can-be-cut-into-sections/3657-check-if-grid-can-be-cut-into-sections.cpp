@@ -9,12 +9,14 @@ public:
         int cuts = 0, farthest_end = rectangles[0][3], count = rectangles.size();
         for (int i = 1; i < count; i++) {
             // cout << rectangles[i] << endl;
-            if (rectangles[i][1] >= farthest_end)
+            if (rectangles[i][1] >= farthest_end) {
                 cuts++;
+                if (cuts >= 2) return true;
+            }
             farthest_end = max(farthest_end, rectangles[i][3]);
         }
 
-        if (cuts >= 2) return true; else cuts = 0;
+        cuts = 0;
 
         // horizontal pass
         sort(rectangles.begin(), rectangles.end(), [](const vector<int>& a, const vector<int>& b) {
@@ -25,6 +27,7 @@ public:
         for (int i = 1; i < count; i++) {
             if (rectangles[i][0] >= farthest_end) {
                 cuts++;
+                if (cuts >= 2) return true;
             }
             farthest_end = max(farthest_end, rectangles[i][2]);
         }
