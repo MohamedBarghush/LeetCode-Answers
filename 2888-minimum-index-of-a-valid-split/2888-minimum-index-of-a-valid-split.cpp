@@ -9,7 +9,8 @@ public:
         }
         
         int majCout = 0;
-        for(auto n: nums) if(n == majority)  majCout++;
+        for(auto n: nums) 
+            if(n == majority)  majCout++;
         
         count = 0;
         for(int i = 0; i < nums.size(); ++i){
