@@ -1,116 +1,88 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+const int MOD = 1e9 + 7;
+const int MAXN = 100000;
+int spf[MAXN + 1];
+
+auto init = []() {
+    memset(spf, -1, sizeof(spf));
+    spf[0] = spf[1] = 0;
+    for(int i = 2; i <= MAXN; i++) {
+        if(spf[i] == -1) {
+            spf[i] = i;
+            if(i > 317) continue;
+            for(int j = i * i; j <= MAXN; j += i) {
+                if(spf[j] == -1) spf[j] = i;
+            }
+        }
+    }
+    return 0;
+}();
+void compute(auto& nums, auto& res, const auto& cmp, bool reverse) {
+    int n = nums.size();
+    vector<int> stk;
+    for(int i = reverse ? n-1 : 0, delta = reverse ? -1 : +1; 0 <= i && i < n; i += delta) {
+        while(!stk.empty() && cmp(nums[i], nums[stk.back()])) {
+            res[stk.back()] = i;
+            stk.pop_back();
+        }
+        stk.push_back(i);
+    }
+}
+
+int distinct(int n) {
+    if(n <= 1) return 0;
+    int cnt = 0, last = 0;
+    while(n > 1) {
+        if(spf[n] > last) {
+            cnt++, last = spf[n];
+        }
+        n /= spf[n];
+    }
+    return cnt;
+}
+
+long long mod_exp(long long base, int exp, long long mod) {
+    long long ans = 1;
+    base %= mod;
+    while(exp > 0) {
+        if(exp & 1) ans = (ans * base) % mod;
+        exp >>= 1;
+        base = (base * base) % mod;
+    }
+    return ans;
+}
+
 class Solution {
 public:
-    const int MOD = 1e9 + 7;
-
     int maximumScore(vector<int>& nums, int k) {
         int n = nums.size();
-        vector<int> primeScores(n, 0);
+        vector<int> factors(n), nextGreater(n, n), prevGreater(n, -1);
 
-        int maxElement = 0;
-        for (int index = 0; index < n; index++) {
-            maxElement = max(maxElement, nums[index]);
+        for(int i = 0; i < n; i++) {
+            factors[i] = distinct(nums[i]);            
         }
+        compute(factors, nextGreater, [](int a, int b) { return a > b; }, false);
+        compute(factors, prevGreater, [](int a, int b) { return a >= b; }, true);
 
-        vector<int> primes = getPrimes(maxElement);
+        priority_queue<array<int, 2>> pq;
+        for(int i = 0; i < n; i++) {
+            int left = prevGreater[i] + 1, right = nextGreater[i] - 1;
 
-        for (int index = 0; index < n; index++) {
-            int num = nums[index];
-
-            for (int prime : primes) {
-                if (prime * prime > num)
-                    break;
-                if (num % prime != 0)
-                    continue;
-
-                primeScores[index]++;
-                while (num % prime == 0)
-                    num /= prime;
-            }
-
-            if (num > 1) primeScores[index]++;
+            int ch_left = i - left + 1;
+            int ch_right = right - i + 1;
+            long long cnt = 1LL * ch_right * ch_left;
+            pq.push({nums[i], (int) min(cnt, (long long) 1e9)});
         }
-
-        vector<int> nextDominant(n, n);
-        vector<int> prevDominant(n, -1);
-
-        stack<int> decreasingPrimeScoreStack;
-
-        for (int index = 0; index < n; index++) {
-            while (!decreasingPrimeScoreStack.empty() &&
-                   primeScores[decreasingPrimeScoreStack.top()] <
-                       primeScores[index]) {
-                int topIndex = decreasingPrimeScoreStack.top();
-                decreasingPrimeScoreStack.pop();
-
-                nextDominant[topIndex] = index;
-            }
-
-            if (!decreasingPrimeScoreStack.empty())
-                prevDominant[index] = decreasingPrimeScoreStack.top();
-
-            decreasingPrimeScoreStack.push(index);
+        long long ans = 1;
+        while(!pq.empty() && k > 0) {
+            auto [mult, cnt] = pq.top();
+            pq.pop();
+            int take = min(k, cnt);
+            ans = (ans * mod_exp(mult, take, MOD)) % MOD;
+            k -= take;
         }
-
-        vector<long long> numOfSubarrays(n);
-        for (int index = 0; index < n; index++) {
-            numOfSubarrays[index] = (long long)(nextDominant[index] - index) *
-                                    (index - prevDominant[index]);
-        }
-
-        vector<pair<int, int>> sortedArray(n);
-        for (int index = 0; index < n; index++) {
-            sortedArray[index] = {nums[index], index};
-        }
-
-        sort(sortedArray.begin(), sortedArray.end(), greater<>());
-
-        long long score = 1;
-        int processingIndex = 0;
-
-        while (k > 0) {
-            auto [num, index] = sortedArray[processingIndex++];
-
-            long long operations = min((long long)k, numOfSubarrays[index]);
-
-            score = (score * power(num, operations)) % MOD;
-
-            k -= operations;
-        }
-
-        return score;
-    }
-
-private:
-    long long power(long long base, long long exponent) {
-        long long res = 1;
-
-        while (exponent > 0) {
-            if (exponent % 2 == 1) {
-                res = ((res * base) % MOD);
-            }
-
-            base = (base * base) % MOD;
-            exponent /= 2;
-        }
-
-        return res;
-    }
-
-    vector<int> getPrimes(int limit) {
-        vector<bool> isPrime(limit + 1, true);
-        vector<int> primes;
-
-        for (int number = 2; number <= limit; number++) {
-            if (!isPrime[number]) continue;
-
-            primes.push_back(number);
-
-            for (long long multiple = (long long)number * number;
-                 multiple <= limit; multiple += number) {
-                isPrime[multiple] = false;
-            }
-        }
-
-        return primes;
+        return ans;
     }
 };
