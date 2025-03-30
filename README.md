@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
+| [0768-partition-labels](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0952-word-subsets) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0402-remove-k-digits) |
+| [0768-partition-labels](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0768-partition-labels) |
 | [0952-word-subsets](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0952-word-subsets) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1160-letter-tile-possibilities) |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0392-is-subsequence) |
+| [0768-partition-labels](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0768-partition-labels) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2232-adding-spaces-to-a-string) |
@@ -446,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0402-remove-k-digits) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0768-partition-labels](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0780-max-chunks-to-make-sorted) |
 | [1502-construct-k-palindrome-strings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1502-construct-k-palindrome-strings) |
 | [1917-maximum-average-pass-ratio](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1917-maximum-average-pass-ratio) |
