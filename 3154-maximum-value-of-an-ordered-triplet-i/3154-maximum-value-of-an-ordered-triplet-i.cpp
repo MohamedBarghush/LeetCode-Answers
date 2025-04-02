@@ -1,11 +1,11 @@
 class Solution {
 public:
     long long maximumTripletValue(vector<int>& nums) {
-        int n = nums.size();
+        short n = nums.size();
         long long ans=0;
-        for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++) {
-                for (int k = j+1; k < n; k++) {
+        for (short i = 0; i < n; i++) {
+            for (short j = i+1; j < n; j++) {
+                for (short k = j+1; k < n; k++) {
                     long long val=(long long)(nums[i]-nums[j])*nums[k];
                     // val += ;
                     ans = max(ans, val);
