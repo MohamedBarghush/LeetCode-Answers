@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0055-jump-game) |
+| [0064-minimum-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0368-largest-divisible-subset](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0368-largest-divisible-subset) |
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0407-trapping-rain-water-ii) |
 | [0854-making-a-large-island](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/0854-making-a-large-island) |
