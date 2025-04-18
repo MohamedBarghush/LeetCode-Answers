@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3643-zero-array-transformation-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3643-zero-array-transformation-ii) |
+| [3654-minimum-array-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3654-minimum-array-sum) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2562-count-ways-to-build-good-strings](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/2562-count-ways-to-build-good-strings) |
 | [3140-count-visited-nodes-in-a-directed-graph](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3140-count-visited-nodes-in-a-directed-graph) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3654-minimum-array-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3654-minimum-array-sum) |
 ## Hash Table
 |  |
 | ------- |
