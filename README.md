@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -319,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3001-apply-operations-to-maximize-score](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3447-clear-digits) |
+| [3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays) |
 ## Two Pointers
 |  |
 | ------- |
@@ -386,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays) |
 ## Recursion
 |  |
 | ------- |
@@ -699,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [3001-apply-operations-to-maximize-score](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays) |
 ## Binary Search Tree
 |  |
 | ------- |
