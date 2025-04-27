@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3654-minimum-array-sum](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3654-minimum-array-sum) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays](https://github.com/MohamedBarghush/LeetCode-Answers/tree/master/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays) |
 ## Dynamic Programming
 |  |
